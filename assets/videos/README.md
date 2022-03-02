@@ -1,0 +1,1 @@
+All video files used in the website should be stored here 
