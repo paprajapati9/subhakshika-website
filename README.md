@@ -1,2 +1,5 @@
-# website-structure
-A general template structure that should be followed by all simple js, html, css based websites
+# shubhakshika-clone
+
+## About this
+Home page of shubhakshika NGO site \
+Live Site URL : https://aryan-ki-codepanti.github.io/shubhakshika-clone/
