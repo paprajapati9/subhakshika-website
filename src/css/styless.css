@@ -45,9 +45,10 @@ li {
 }
 
 .arrow {
-  margin-top: 8px;
   margin-left: 0;
   position: absolute;
+  margin-top: 2px;
+background-color: #F7F7F7;
 }
 
 .Volunteer:hover {
