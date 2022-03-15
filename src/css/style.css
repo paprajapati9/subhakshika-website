@@ -1,0 +1,207 @@
+.background {
+    background-image:url("images/ngo\ photo.jpg") ;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: 2000px,2000px;
+	background-position: -16px -13px;
+	margin: -9px 0px 0px -6px;
+	height: 640px;
+	width:1508px;
+    position: relative;
+    top: -230px;
+    right:-3px;
+
+        }
+h1{
+    color:white;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-indent: 2%;
+    line-height: 3px;
+    position: relative;
+    top: 200px;
+    
+
+}
+
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    border-color:#548CFF;
+    border-width: 20px ;
+    width:100px;
+    height:100px;
+    position: relative;
+    top: -300px;
+}
+
+nav{
+    background:white;
+    list-style-type: none;
+	text-align: right;
+    top: 100px;
+	margin: 5px 5px 5px 0px;
+ 	width: 100%;
+  	height: 100px;
+}
+
+#button1{
+    background-color:#548CFF;
+    color:white;
+    border-radius: 8px;
+    font-size: 30px;
+    position:relative;
+    top:-80px;
+    font-style: "Fredoka";
+    border:#00B4D8;
+    text-align: center;
+
+    
+}
+
+#button2{
+    background-color:#548CFF;
+    color:white; 
+    border-radius: 8px;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    top:200px;
+    border:#00B4D8;
+    
+  
+    
+}
+#button3{
+    background-color:transparent;
+    color:white;
+    border-radius: 8px;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    top:200px;
+    border:#F7F7F7 solid;
+    margin-left: 30px;
+    
+    
+
+}
+
+a{
+    display: inline;
+	font-size:larger;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 0px;
+	
+}
+
+header{
+    position:relative;
+    top:107px;
+
+}
+
+#arrow1{
+        margin: 5px 0px -3px -30px;
+        position:relative;
+       top:-80px;
+}
+
+#arrow2{
+        margin: 5px 0px -3px -30px;
+        position:relative;
+        top:-80px;
+}
+
+.content{
+    background-color:#EEEDDE;
+    position: relative;
+    top:-380px;
+    right:20px;
+  
+  
+
+}
+ 
+#boy{
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    width: 400px;
+}
+
+p{
+    text-indent: 3%;
+    line-height: 2%;
+    font-size: 140%;
+    font-weight:lighter;
+    color: black;
+}
+
+h2{
+    text-indent: 3%;
+    font-size: 300%;
+    font-family: 'Fredoka', sans-serif;
+    position: relative;
+    top:40px;
+}
+
+#button4{
+    color:#00B4D8;
+   margin-left:600px;
+   position: relative;
+   top:-20px;
+   border:#00B4D8 solid;
+   font-size: 20px;
+    
+}
+#button5{
+   margin-left:700px;
+   background-color: white;
+   border:black solid;
+   font-size: 20px;
+   position: relative;
+   top:-20px;
+}
+
+.content2{
+    position: relative;
+    top:-480px;
+}
+
+#girl{
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    top: -10px;
+    right:40px;
+    width:500px;
+   
+}
+
+.content3{
+    background-color:#EEEDDE;
+    position: relative;
+    top:-500px;
+}
+#group{
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#logo{
+    position:relative;
+    left: 80px;
+    top:-120px;
+}
+
+a{
+    color:black;
+    position:relative;
+    top:-80px;
+    font-size:25px;
+    font-family:"Fredoka";
+}
+
+
