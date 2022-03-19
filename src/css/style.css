@@ -1,0 +1,297 @@
+#logo{
+    position:relative;
+    left: 80px;       /*shifted 80px from left*/
+    bottom:120px;    /*shifted 120px form bottom*/
+    width:110px;   /* specifying the width of our logo*/
+    cursor: pointer;
+}
+
+header{
+    position:relative;
+    top:107px;
+}
+
+
+nav{
+    background:white;
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+ 	width: 1500px;
+  	height: 100px;
+    cursor: pointer;
+
+}
+/*to remove underline form the links we set text decoration as none here*/
+nav a {
+    text-decoration: none;
+}
+
+/*navbar anchor tag link styling*/
+a{
+    display: inline;  /*so that all links are inline*/
+	font-size:26px;
+	margin-left: 15px;
+	margin-right: 30px;
+	margin-top: 0px;
+    margin-bottom: -90px;
+    color:black;
+    position:relative;
+    bottom:80px;
+    font-family: 'Roboto', sans-serif;
+	
+}
+
+/* :hover is used when we will point our mouse to that then background color will change*/
+nav a:hover{
+  color:blue;
+}
+
+#arrow1{
+    margin: 5px 0px -3px -30px;
+    /*negative value in margin places it closer */
+    position:relative;
+    bottom:80px;
+    width:20px;
+    height:20px;
+   }
+
+#arrow2{
+    margin: 5px 0px -3px -30px;
+    /*negative value in margin places it closer */
+    position:relative;
+    bottom:80px;
+    width:20px;
+    height:20px;
+}
+
+/*volunteer button*/
+#button1{
+    background-color:#548CFF;
+    color:white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    position:relative;
+    bottom:80px;
+    font-style: "Fredoka";
+    border:#00B4D8;
+    text-align: center;
+    width:155px;
+    height: 42px;
+   cursor: pointer; /*by this when cursor is moved to the button it is changed to pointer*/
+}
+
+#button1:hover{
+    background-color:blue;
+}
+
+/*seting the background image of homepage*/
+.background {
+    background-image:url("images/ngo\ photo.jpg") ; /*to add the background image*/
+    background-repeat:no-repeat;   /*when we want only single photo we write no repeat ,otherwise we can give axis in which we want to repeat*/
+    background-attachment:scroll;  /*The background image will scroll with the page.*/
+    background-size: 2050px;
+    margin: -8px 0px 0px -10px;
+	height: 640px;
+	width:1518px;
+    position: relative;
+    bottom: 220px;
+    left:3px;
+ }
+
+h1{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: left;
+    text-indent: 2%;
+    line-height: 8px;
+    position: relative;
+    top: 200px;
+}
+
+.heading1{
+    font-size: 85px;
+}
+
+/*donate button */
+#button2{
+    background-color:#548CFF;
+    color:white; 
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 21px;
+    position: relative;
+    left: 45px;
+    top:200px;
+    border:#00B4D8;
+    width:155px;
+    height: 44px;
+    font-style: "Fredoka";
+    cursor: pointer;
+}
+
+#button2:hover{
+    background-color:blue;
+    
+}
+
+/*volunteer button*/
+#button3{
+    background-color:transparent;
+    color:white;
+    border-radius: 8px;
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+    top:200px;
+    border:#F7F7F7 solid;
+    cursor: pointer;
+    }
+
+#button3:hover{
+    background-color:rgba(255, 255, 255, 1) ;
+    color: black;
+ 
+}
+
+/*the dotted hr*/
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    border-color:#548CFF;
+    border-width: 20px ;
+    width:100px;
+    height:100px;
+    position: relative;
+    bottom: 300px;
+}
+
+.content{
+    background-color:#F7F7F7;
+    position: relative;
+    bottom:380px;
+    right:20px;
+    margin-right: -40px;
+    margin-top:-20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ /*image of boy*/ 
+#boy{
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ECECEC;
+    width: 420px;
+    height:285px;
+   
+    
+  }
+
+h2{
+    text-indent: 3%;
+    font-size: 50px;
+    position: relative;
+    top:40px;
+    
+}
+/*button of read more*/
+#button4{
+   color:#00B4D8;
+   margin-left:630px;
+   position: relative;
+   bottom:20px;
+   border:#00B4D8 solid;
+   font-size: 20px;
+   border-radius:3px ;
+   padding:8px;
+   background-color: white; 
+   cursor: pointer;
+}
+
+#button4:hover{
+    background-color:rgba(255, 255, 255, 1) ;
+    color: black;
+    border-color:black ;
+}
+
+.content2{
+    position: relative;
+    bottom:480px;
+    margin-top: -18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#girl{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    bottom:10px;
+    margin-right:-14px;
+    width:480px;
+   }
+ 
+   /*our team button*/  
+#button5{
+    margin-left:600px;
+    background-color: white;
+    border:black solid;
+    font-size: 25px;
+    position: relative;
+    bottom:20px;
+    border-radius:3px ;
+    padding: 8px;
+    height:48px;
+    width:170px;
+    cursor: pointer;
+ }
+
+ #button5:hover{
+    color:#00B4D8;
+    border:#00B4D8 solid;
+ }
+
+ .content3{
+    background-color:#F7F7F7;
+    position: relative;
+    bottom:500px;
+    margin-top: -68px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -30px;
+}
+
+#group{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ECECEC;
+    margin-left:-20px;
+    margin-top: 6px;
+   
+}
+
+p{
+    text-align: left;
+    text-indent: 3%;
+    line-height: 1%;
+    font-size: 130%;
+    color: black;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
