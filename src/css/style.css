@@ -89,7 +89,7 @@ nav a:hover{
 
 /*seting the background image of homepage*/
 .background {
-    background-image:url("images/ngo\ photo.jpg") ; /*to add the background image*/
+    background-image:url("assets/images/ngo\ photo.jpg") ; /*to add the background image*/
     background-repeat:no-repeat;   /*when we want only single photo we write no repeat ,otherwise we can give axis in which we want to repeat*/
     background-attachment:scroll;  /*The background image will scroll with the page.*/
     background-size: 2050px;
