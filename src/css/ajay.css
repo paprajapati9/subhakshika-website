@@ -1,0 +1,131 @@
+.megha{
+ background-image: url(images2/subha.jpg);
+ width: 100vw;
+    height: 100vh;
+ 
+   background-size:cover;
+background-position: center;
+}
+
+
+
+nav{
+    background:#F5F5F5;
+    height: 135px;
+    font-size: 30px;
+  
+    
+}
+nav a{
+    display:inline;
+    font-size: 35px;
+    top:35px;
+    text-decoration: none;
+    margin-left: 260px;
+    
+}
+   nav a:hover{
+     color:rgb(212, 30, 91);
+    }
+    .button{
+    background-color:blue;
+    color: rgb(234, 240, 240);
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    
+}
+.button1{
+    background-color: white;
+    color:rgb(57, 41, 196);
+    border-color:blue;
+    border-radius:3px;
+    position: relative ;
+    left:600px;
+}
+.button:hover{
+    background-color: aqua;
+}
+.button1:hover{
+  background-color: aquamarine;
+}
+.kirti{
+    background-image:url(images2/aku.png);
+    width:50%;
+    height:50%;
+    margin-left: 80px;
+    top:-120px;
+    position: relative;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    color: rgb(22, 20, 20);
+    margin: 45px;
+    position: absolute;
+    text-align: left;
+    top:300px;
+    font-size: 25px;
+}
+.content:hover{
+    color: red;
+}
+.content1{
+    background-color:#F5F5F5;
+    height:300px;
+    width:1500px;
+
+}
+.size{
+    float: left;
+    margin: 35px;
+    border-radius: 3px;
+    height:270px;
+    width:600px;
+    border-radius: 15px;
+    box-shadow:5px 5px;
+}
+.text{
+    font-size: 20px;
+    word-spacing:1em;
+    margin:50px;
+    
+
+}
+.size1{
+    float: right;
+    margin: 3px;
+    border-radius: 3px;
+    height:260px;
+    width:600px;
+    border-radius:15px ;
+    box-shadow:5px 5px;
+
+}
+.text1{
+   font-size: 20px;
+    word-spacing:1em;
+    margin:30px;
+}
+.content2{
+    background-color: #F5F5F5;
+    height:260px;
+    width:1500px;
+
+}
+
+#arrow1
+{
+    width:30px;
+  height:50px;
+  position:relative;
+  top:15px;
+  opacity: 0.55;
+  }
+ .button2{
+     position: relative;
+     left: 660px;
+ }
+ .button2:hover{
+     background-color: aquamarine;
+ }
