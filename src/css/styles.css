@@ -62,7 +62,7 @@ nav ul li a {
     padding-left: 4em;
     position: relative;
 
-    background-image: url(../img/hero.jpg);
+    background-image: url(../../assets/images/hero.jpg);
     background-repeat: no-repeat;
     background-size: 104% 104%;
     background-position: center;
@@ -150,65 +150,6 @@ nav ul li a {
 
 /* About Section */
 
-.about-child {
-    width: 80%;
-    max-width: 900px;
-    margin: auto;
-}
-
-.about-child {
-    display: flex;
-    align-items: center;
-    gap: 3.2em;
-    padding-block: 2em;
-}
-
-.about-2 {
-    flex-direction: row-reverse;
-}
-
-.about-2 button {
-    color: #000 !important;
-    border-color: #000 !important;
-}
-
-.about-img {
-    width: 350px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-.about-content h1 {
-    font-weight: 500;
-    font-size: 2.2rem;
-    margin-bottom: 0.7em;
-}
-
-.about-content button {
-    margin-block: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4em;
-    padding: 0.5em 0.7em;
-    cursor: pointer;
-
-    background: transparent;
-    border: 2px solid var(--blue);
-    color: var(--blue);
-    font-weight: 500;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-.about-dark-wrapper {
-    background-color: #f6f7fb;
-}
 
 
 /* Submenu Navbar List */
