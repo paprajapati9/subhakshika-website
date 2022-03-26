@@ -1,312 +1,87 @@
 *{
-    min-inline-size: min-content;
-    min-width: min-content;
-}
-
-.main{
-    background-image: url(https://media.istockphoto.com/photos/little-cute-happy-girl-holding-tablet-picture-id582271796?k=20&m=582271796&s=612x612&w=0&h=Kh_eXVHDbF9OAPMa7zBqWRU4RVD_XQX3ZKpAdovQrHE=) ;
-    background-repeat: no-repeat;
-    background-attachment:scroll;
-    background-size: cover;
-    background-color: black;
-    background-size:stretch;
-    height:20cm;
-    backdrop-filter: grayscale(1);
-}
-
-.navbuttons{
-    display: flex;
-    justify-content:flex-end;
-    align-content: center;
-    font-weight: 400;
-    font-size: larger;
-    margin-top: 20px;
-    
-}
-
-.dropdown .dropdownbtn{
-    border:none;
-    outline: none;
-}
-
-.dropdown-content{
-    display: none;
-    position:absolute ;
-    background-color: silver ;
-    min-width: 120px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 600;
-    text-indent: 25px;
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
-.dropdown-content a{
-    display: block;
-    padding-right: 25px;
-    padding-top: 12px;
-    padding-bottom: 15px;
-    color: black;
-}
-
-#project{
-    font-size:medium;
-    font-weight: 600;
-    text-decoration: none;
-    background: none;
-    padding-right: 20px;
-    margin-right: 25px;
-}
-
-#about{
-    font-size:medium;
-    font-weight: 600;
-    text-decoration: none;
-    background: none;
-    padding-right: 20px;
-    margin-right: 25px;
-    
-}
-
-.contact{
-    
-    color: rgb(0, 0, 0);
-    font-weight:600;
-    font-size: large;
-    text-decoration: none;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    margin-bottom: 5px;
-    margin-right: 25px;
-    
-}
-
-.sponsors{
-    
-    color: rgb(0, 0, 0) ;
-    font-weight:600 ;
-    font-size: large;
-    text-decoration: none;
-    padding-right: 20px;
-    padding-bottom: 18px;
-    margin-bottom: 5px;
-    margin-right: 25px;
-    
-}
-
-.volunteer{
-    color:white ;
-    font-weight : 400px;
-    font-size: large;
-    background-color: rgba(0, 81, 255, 0.651);
-    border-radius: 8px;
-    text-decoration: none;
-    padding-right: 20px;
-    padding-bottom: 3px;
-    display: inline-block;
-    cursor: pointer;
-    padding-top:6px;
-    padding-left:20px ;
-    margin-bottom: 10px;
-    margin-right:20px;
-    margin-top: -6px;
-}
-
-nav{
-    background-color: grey;
-    height: 65px;
-    display: inline-block;
-}
-
-.navbuttons .dropdown .dropdown-content a:hover{
-    background-color: rgb(254, 255, 254);
-    color: rgb(248, 38, 1);
-    text-shadow: 2px 2px 63px;
-    transition-duration: 0.5s;
-    min-width: 150px;
-    border-color:3px solid black;
-}
-
-.sponsors:hover , .contact:hover{
-    color: rgb(255, 0, 0);
-    transition-duration: 0.2s;
-    text-decoration: underline;
-    text-decoration-color: brown;
-    text-shadow: 2px 2px 63px;
-}
-
-button:hover{
-    color: rgb(226, 7, 36);
-    transition-duration: 0.3s;
-    text-shadow: 2px 2px 63px;
-}
-
-.volunteer:hover{
-    border: 1px solid black;
-    color:black;
-    background-color: aquamarine;
-    transition-duration: 0.5s;
-    text-shadow: 2px 2px 63px;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
 }
 
 
-
-nav .logo{
-    width:5px;
-    height: 80px;
-    background-color: red;
-    display: inline;
-}
-
-.logo img{
-    display: inline-block;
-    margin-left: 30px;
-    width: 10%;
-    height: 100%;
-}
-
-.header{
-    display: flex;
-    justify-content:space-between;
-    background-color:rgba(185, 185, 185, 0.568);
-}
-
-.content{
-    color: White;
-    font-weight: 800;
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 200px;
-    line-height: 20px;
-    margin-left: 100px;
-    font-size: larger;  
-    color:antiquewhite ;
-    text-shadow:2px 3px 25px red;
-}
-.content h1{
-    font-size: 0.8in;
-}
-
-.content h2{
-    font-size: 0.6in;
-}
-
-.content h3{
-    font-size: 0.5in;
-    text-transform:capitalize ;
-}
-
-.donate-volunteer{
-    margin-top: 60px;
-    margin-left: 100px;
-    font-size: 0.36in;
-}
-
-.donate-volunteer a{
-    text-decoration: none;
-    color:white;
-    text-shadow: 3px 3px 30px blue;
-    margin-right: 100px;
-    padding:5px 8px;
-    border:2px solid white;
-    border-radius:6px;   
-}
-
-#donate{
-    background-color: rgb(13, 231, 24);
-    text-shadow: 3px 5px 15px salmon;
-    color:rgb(10, 62, 233);
-    font-weight: bold;
-}
-
-#donate:hover{
-    background-color: rgb(248, 144, 9);
-    color : rgba(240, 250, 241, 0.918);
-    text-decoration: underline;
-    text-shadow: 3px 4px 8px brown;
-    transition-duration: 0.4s;
-    font-weight: bolder;
-}
-
-#volunteer:hover{
-    background-color: rgb(248, 144, 9);
-    color : rgba(0, 0, 0, 0.918);
-    text-decoration: underline;
-    text-shadow: 3px 4px 8px brown;
-    transition-duration: 0.5s;
-}
 
 .about img{
-    height: 3in;
-    width: 8in;
+    height: 45vh;
+    width: 75vw;
     padding: 5px 20px 20px 10px;
-    box-shadow: 2px 2px 2px 3px black ;
-    border-radius: 25px 30px 30px 25px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px 25px 25px 0px ;
 }
 
 .about{
     display:flex;
-    background-color: antiquewhite;
-    min-inline-size:min-content;
+    background-color:#f5f7fa;
 }
 
 span{
     color: black;
     font-size:xx-large;
-    font-weight: 800;
-    
+    font-weight: 800;   
 }
 
 #we, #origin ,#vision{
     color: black;
-    font-size:large;
+    font-size:larger;
     font-weight: 600;
 }
 
 .text{
-    padding: 0.5in;
+    padding:2%;
     margin:10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap:inherit;
+    height: 50px; 
+}
+
+p{
+    height: 12px;
+    display: block;
+    float: none;
 }
 
 #origin{
-    background-color: white;
+    background-color: #ffffff;
     float: left;
-    text-align: justify;
+    text-align: left;
 }
 
 #origin img{
-    width: 8in;
-    height: 3in ;
-    padding: 5px 20px 20px 10px;
-    border-radius: 30px 25px 25px 30px;
+    width: 75vw;
+    height: 45vh ;
+    padding: 0px 20px 20px 10px;
+    padding-right: 0px ;
+    padding-bottom: 0px ;
+    border-radius: 25px 0px 0px 25px;
     float:right;
-    box-shadow: 2px 2px 2px 3px black ;
+    box-shadow: 10px 5px 5px #737373;
 }
 
 #vision{
-    background-color: blanchedalmond;
     float:right;
-    text-align: justify;
+    text-align: left;
 }
 
 #vision img{
-    width: 5.5in;
-    height:3in;
+    width: 45vw;
+    height: 45vh;
 }
 
 #we button , #vision button ,#origin button{
     background-color: rgb(255, 255, 255);
     font-size: large;
     font-weight: 600;
-    color: rgb(15, 158, 158);
+    color: #737373;
     display: block;
-    width: 30%;
-    height:5%;
-    border: 2px solid rgb(26, 148, 148);
+    width: 25%;
+    height: 5%;
+    border: 2.5px solid #737373;
     border-radius: 6px;
     text-align: center;
     margin: 19% 4% 1% 0;
@@ -315,10 +90,13 @@ span{
 
 #vision button{
     width:10%;
-    color: rgb(15, 158, 158) ;
+    color: #737373 ;
 }
 
 #we button:hover , #vision button:hover ,#origin button:hover{
-    background-color:aquamarine;
-    color: black;
-}
+    background-color:white;
+    color: #00a7f6;
+    border-color: #00a7f6;
+    cursor: pointer;
+    transition-duration: .2s;
+}  
