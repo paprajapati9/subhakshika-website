@@ -303,6 +303,7 @@ nav ul li a {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 .our-projects__card .card-content p {
     font-size: 1.1rem;
