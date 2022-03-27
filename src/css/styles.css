@@ -149,7 +149,7 @@ nav ul li a {
 }
 
 /* About Section */
-
+/*
 .about-child {
     width: 80%;
     max-width: 900px;
@@ -209,7 +209,104 @@ nav ul li a {
 .about-dark-wrapper {
     background-color: #f6f7fb;
 }
+*/
+/* -------------------------------------------- */
+.about img{
+    height: 45vh;
+    width: 75vw;
+    padding: 5px 20px 20px 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px 25px 25px 0px ;
+}
 
+.about{
+    display:flex;
+    background-color:#f5f7fa;
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+span{
+    color: black;
+    font-size:xx-large;
+    font-weight: 800;   
+}
+
+#we, #origin ,#vision{
+    color: black;
+    font-size:larger;
+    font-weight: 600;
+}
+
+.text{
+    padding:2%;
+    margin:10px;
+    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap:inherit;
+    height: 50px; 
+}
+
+p{
+    height: 12px;
+    display: block;
+    float: none;
+}
+
+#origin{
+    background-color: #ffffff;
+    float: left;
+    text-align: left;
+}
+
+#origin img{
+    width: 75vw;
+    height: 45vh ;
+    padding: 0px 20px 20px 10px;
+    padding-right: 0px ;
+    padding-bottom: 0px ;
+    border-radius: 25px 0px 0px 25px;
+    float:right;
+    box-shadow: 10px 5px 5px #737373;
+}
+
+#vision{
+    float:right;
+    text-align: left;
+}
+
+#vision img{
+    width: 45vw;
+    height: 45vh;
+}
+
+#we button , #vision button ,#origin button{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 600;
+    color: #737373;
+    display: block;
+    width: 25%;
+    height: 5%;
+    border: 2.5px solid #737373;
+    border-radius: 6px;
+    text-align: center;
+    margin: 19% 4% 1% 0;
+    padding:5px;
+}
+
+#vision button{
+    width:10%;
+    color: #737373 ;
+}
+
+#we button:hover , #vision button:hover ,#origin button:hover{
+    background-color:white;
+    color: #00a7f6;
+    border-color: #00a7f6;
+    cursor: pointer;
+    transition-duration: .2s;
+}  
 
 /* Submenu Navbar List */
 .submenu-link{
