@@ -1,0 +1,445 @@
+
+
+#email{
+    position: relative;
+    width: 457px;
+    height: 40px;
+    left: 872px;
+    top: 70px;
+    background: #FFFFFF;
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+#name{
+    position: relative;
+    width: 457px;
+    height: 40px;
+    left: 872px;
+    top: -35px;
+    background: #FFFFFF;
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+#number{
+    position: relative;
+    width: 457px;
+    height: 40px;
+    left: 872px;
+    top: 20px;
+    background: #FFFFFF;
+   border: 2px solid #000000;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+
+#message{
+    position: relative;
+    width: 457px;
+    height: 135px;
+    left: 872px;
+    top: 135px;
+    background: #F5F7FA;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+#send{
+    position: relative;
+    height: 40.53px;
+    width: 161px;
+    left: 869px;
+    right:407;
+    top: 280px;
+    border-radius: 10px;
+    background: #00A7F6;
+    border: 1px solid #3E8BFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 18.94px;
+    padding-top: 5px  ;
+    padding-bottom: 8px ;
+    padding-right: 9.47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    cursor: pointer;
+   color: #F5F7FA;
+}
+
+::placeholder { 
+    color: #000000 ;
+    opacity: 1;
+}
+    
+/*NAME*/
+input[type ="text"] {
+    position: relative;
+    width: 99px;
+    height: 23px;
+    left: 902px;
+    top: 224px;
+    padding-left: 30px;
+    padding-top: 8px  ;
+    padding-bottom: 9px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+/*MOBILE NUMBER*/
+input[type="tel"]{
+    position: relative;
+    width: 206px;
+    height: 23px;
+    left: 902px;
+    top: 282px;
+    padding-left: 30px;
+    padding-top: 8px  ;
+    padding-bottom: 9px ;
+    font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   color: #000000;
+}
+/* Email ID */
+input[type="email"]{
+
+    position: relative;
+    width: 131.08px;
+    height: 23px;
+    left: 902px;
+    top: 342px;
+    padding-left: 30px;
+    padding-top: 8px  ;
+    padding-bottom: 9px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+} 
+/*QUERY*/
+textarea{
+position:relative;
+width: 207px;
+height: 23px;
+left: 902px;
+top: 406px;
+padding-left: 30px;
+padding-top: 8px  ;
+padding-bottom: 9px ;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+/*help button*/
+#help{
+    
+    position: fixed;
+    left: 1250px;
+    top: 600px;
+    bottom: 0%;
+    height: 123px;
+    width: 246px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left:25px;
+    line-height: 22px;
+    
+    
+}
+
+
+
+#question{
+     position:relative;
+     float:left;
+     height: 45px;
+     width: 45px;
+     left: 1290px;
+     top: 355px;
+     border-radius : 0px;
+}
+/* contact us*/
+h1{
+    position: relative;
+    width: 369px;
+    height: 79px;
+    left: 93px;
+    top: 88px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 79px;
+    color: #000000;
+  }
+/* Shubhakshika Education Society */
+#data{
+position: absolute;
+width: 480px;
+height: 39px;
+left: 93px;
+top: 210px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 39px;
+color: #000000;
+}
+
+p{
+    position: absolute;
+    width: 402px;
+    height: 132px;
+    left: 93px;
+    top: 253px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+  }
+
+#mail{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 90px;
+    top: 428px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+
+}
+
+#email1{
+   position: absolute;
+   width: 294px;
+   height: 29px;
+   left: 143px;
+   top: 422px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 29px;
+   color: #000000;
+}
+#mobile{
+    position: absolute;
+    width: 219px;
+    height: 29px;
+    left: 143px;
+    top: 487px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+
+}
+#tele{
+    position: absolute;
+    width: 162px;
+    height: 29px;
+    left: 143px;
+    top: 545px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #000000;
+}
+/*mobile phone image*/
+#phone{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 93px;
+    top: 493px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+/*telephone image*/
+#telephone{
+   position: absolute;
+   width: 50px;
+   height:50px;
+   left: 93px;
+   top: 550px;
+   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+/*fotter*/
+.site-footer
+{  position:relative;
+  top:650px;
+  background-color:#313843;
+  padding:45px 0 20px;
+  font-size:25px;
+  line-height:24px;
+  height:564px;
+  color:#ffff;
+}
+/*Shubhakshika Education Society*/
+.site-footer h3{
+display: inline;
+position:relative;
+width: 495px;
+height: 40px;
+left: 473px;
+top: -20px;
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+color: #F5F7FA;
+text-align:center;
+}
+/*follow us on social media*/ 
+.site-footer h5{
+position:relative;
+width: 345px;
+height: 33px;
+left: 370px;
+top: 92px;
+font-size:28px;
+color:#ffff; 
+}
+/*top headings*/
+.site-footer h6
+{ 
+  color:#fff;
+  position:relative;
+  top:71px;
+  right:45px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+}
+/*about us content*/
+.text-justify{
+position: relative;
+width: 300px;
+height: 145px;
+left: -52px;
+top: 80px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+color: #FFFFFF;
+}
+/*site links heading*/
+.sitelinks{
+  margin-left:80px;
+}
+/*get involved heading*/
+.getinvolved{
+  margin-left:80px;
+  width:500px;
+}
+/*our project heading*/
+.ourproject{
+  margin-left:80px;
+  width:500px;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#00A7F6;
+  text-decoration:none;
+}
+
+/*sitelinks*/
+.footer-links
+{ position:relative;
+  padding-left:0;
+  list-style:none;
+  top:80px;
+  left:35px;
+  line-height: 33px;
+}
+
+.footer-links li
+{
+  display:block;
+}
+.footer-links a
+{ 
+  display:inline;
+  color:#ffff;
+  font-size:25px;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#00A7F6;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+
+.site-footer .social-icons
+  {
+    text-align:center
+  }
+
+
+
+
+.social-icons{
+  display:flex;
+}
+
+.social-icons ul{
+  display: flex;
+}
+
+.social-icons  {
+  list-style-type: none;
+}
+
+.social-icons a {
+  position:relative;
+  padding: 10px 20px;
+  font-size:35px;
+  top:120px;
+  right:430px;
+}
+ .social-icons a:hover{
+   background-color: #00A7F6;
+   width:20px;
+   height:10px;
+   border-radius: 5px;
+   padding: 5px;
+ }
+

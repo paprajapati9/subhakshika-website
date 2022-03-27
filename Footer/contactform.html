@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us  </title>
+    <!--linking the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka&family=Roboto:wght@100;400&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka&family=Montserrat:wght@600&family=Roboto:wght@100;400&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka&family=Montserrat:wght@600&family=Roboto:wght@100;400;500&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka&family=Montserrat:wght@600&family=Roboto:wght@100;400;500;700&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <!--linking  the bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--linking the external css-->
+    <link rel="stylesheet" href="styleform.css">
+</head>
+
+<body>
+   <div class="contact us">
+    <!--address  details -->
+    <h1>Contact Us</h1>
+    <p id="data"> Shubhakshika Education Society </p>
+    <p>4/124, Block-J, Sector-16, Rohini <br>
+    Landmark-Near Sardar <br>
+    Colony Gurudwara <br>
+    New Delhi-110089 </p>
+    <br>
+    <!--additional contact  details -->
+    <table >
+      <tr>
+        <!--gmail id -->
+        <td><img src="images/mail.png" alt="mail_image" id="mail"></td>
+        <td><h4 id="email1">shubhakshika@gmail.com</h4></td>
+      </tr>
+      <tr>
+        <!--mobile number-->
+        <td><img src="images/mobile.png" alt="phone_image" id="phone" ></td>
+        <td><h4 id="mobile">+(91) 98 1020 1542</h4></td>
+      </tr>
+      <tr>
+        <!--telephone number-->
+        <td><img src="images/telephone.png" alt="telephone_image" id="telephone" ></td>
+        <td><h4 id="tele">011-27852040</h4></td>
+      </tr>
+
+    </table>
+
+      <!--form tag -->
+      <form >
+
+      <!--input tag basically tells what type of input will be entered -->
+      <p><input type="text"  name="name" id="name" placeholder="Your Name" required></p>
+      <!--using placeholder attribute we can give a default message in the field -->
+      <p><input type ="tel" name="contact" id="number" placeholder="Mobile Number" required></p>
+      <p><input type="email" name="email" id="email"  placeholder= "Email ID "></p>
+      <p><textarea placeholder="Enter your Query here... " name="message "id="message" ></textarea><p>
+      <!--send button-->
+      <input type="submit" value="Send Message " id="send">
+     </form>
+      <!--help-->
+      <a href="http://shubhakshika.org/" target="_blank"><input type="image" value="help" id="help" src="images/helpbutton.png"></a>
+
+
+
+    </div>
+
+
+<!-- Site footer -->
+<footer class="site-footer">
+  <h3>Shubhakshika Education Society </h3>
+  <div class="container">
+    <div class="row">
+      <!--about us-->
+      <div class="col-sm-12 col-md-3">
+        <h6>About Us</h6>
+        <p class="text-justify">Far far away, behind the word mountains ,far from the countries Vokalia and Consonantia , there live the blind texts.</p>
+      </div>
+      <!--site links-->
+<div class="col-xs-6 col-md-3">
+        <h6 class="sitelinks">Site Links</h6>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Our Projects</a></li>
+          <li><a href="#">Contact Us</a></li>
+
+        </ul>
+      </div>
+      <!--get involved-->
+      <div class="col-xs-6 col-md-3">
+        <h6 class="getinvolved">Get Involved!</h6>
+        <ul class="footer-links">
+          <li><a href="#">Volunteer</a></li>
+           <li><a href="#">Donate</a></li>
+
+        </ul>
+      </div>
+      <!--our projects-->
+      <div class="col-xs-6 col-md-3">
+        <h6 class="ourproject">Our Projects</h6>
+        <ul class="footer-links">
+           <li><a href="#">Open Shelter Home for Boys</a></li>
+           <li><a href="#">Girl Child Project</a></li>
+           <li><a href="#">Vocational Training</a></li>
+           <li><a href="#">Drugs Prevention and <br>De-Addiction</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <h5>Follow Us on Social Media!</h5>
+      </div>
+      <br>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <!--instagram-->
+          <li><a class="social-items" href="https://www.instagram.com/shubhakshika_ngo/" target="_blank"><img src="images/instagram.png" alt="instagram image"></a></li>
+          <!--facebook-->
+          <li><a class="social-items" href="https://www.facebook.com/shubhakshika.ngo?_rdr" target="_blank" ><img src="images/facebook.png" alt="facebook image"></a></li>
+          <!--linkedin-->
+          <li><a class="social-items" href="https://in.linkedin.com/company/shubhakshika-educational-society?trk=companies_directory" target="_blank" ><img src="images/linkedin.png" alt="linkedin image"></a></li>
+          <!--twitter-->
+          <li><a class="social-items" href="https://twitter.com/shubhakshika?lang=en" target="_blank"><img src="images/twitter.png" alt="twitter image"></a></li>
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- partial -->
+
+
+
+</html>
