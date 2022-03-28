@@ -335,6 +335,7 @@ nav ul li a {
     border: none;
     cursor: pointer;
     opacity: 1 !important;
+    transition: all 0.4s ease;
 }
 .our-projects-section .our-projects__button--active{
     background: #484D54;
