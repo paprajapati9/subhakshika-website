@@ -117,12 +117,20 @@ dl, ol, ul {
 .content {
     position: relative;
     top: 21rem;
-    left: 4em;
-    width: 50%;
+    left: 9rem;
+    width: 40%;
 }
 .w-100{
     width: 118em !important;
     height: 39em;
+}
+.carousel-control-prev {
+        left: 1rem;
+    width: 3%;
+}
+.carousel-control-next {
+    right: 2rem;
+width:3%;
 }
 .overlay {
     background: rgba(122, 121, 121, 0.44);
