@@ -121,7 +121,7 @@ dl, ol, ul {
     width: 40%;
 }
 .w-100{
-    width: 118em !important;
+    width: 100% !important;
     height: 39em;
 }
 .carousel-control-prev {
