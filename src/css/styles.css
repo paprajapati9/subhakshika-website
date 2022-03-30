@@ -158,16 +158,16 @@ dl, ol, ul {
     width: 40%;
 }
 .w-100{
-    width: 118em !important;
+    width: 100% !important;
     height: 39em;
 }
 .carousel-control-prev {
-        left: 1rem;
+    left: 1rem;
     width: 3%;
 }
 .carousel-control-next {
     right: 2rem;
-width:3%;
+    width:3%;
 }
 .overlay {
     background: rgba(122, 121, 121, 0.44);
