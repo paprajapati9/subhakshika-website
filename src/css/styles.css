@@ -20,6 +20,43 @@ html{
 
 
 }
+@media only screen and (max-width:600px){
+    nav{
+        font-size: 0.6rem;
+        padding: 0;
+        
+    }
+    .nav-link{
+        padding: 0.5rem 0.5rem;
+        
+    }
+    .content h1{
+        font-size: 2rem;
+    }
+    
+    .content h2{
+        font-size: 1rem !important;
+    }
+    .btn-box{
+        font-size: 0.5rem;
+    }
+}
+@media only screen and (max-width:436px){
+   
+        
+    }
+    .hero{
+        min-width: 436px;
+    }
+    .overlay{
+        min-width: 436px;
+    }
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto repeat(6, 1fr);
+}
 .carousel-indicators [data-bs-target] {
     height: 15px;
     width: 15px;
@@ -117,7 +154,7 @@ dl, ol, ul {
 .content {
     position: relative;
     top: 21rem;
-    left: 9rem;
+    left: 9%;
     width: 40%;
 }
 .w-100{
@@ -199,7 +236,7 @@ width:3%;
 
 .submenu-link .submenu{
     position: absolute;
-    width: 116px;
+    width: 117%;
     background-color: #fff;
     z-index: 10;
     padding: 0 10px;
@@ -210,7 +247,7 @@ width:3%;
 }
 
 .submenu-link.show .submenu{
-    height: 129px;
+    height: 110px;
 }
 .submenu-link .submenu-list{
     opacity: 0;
