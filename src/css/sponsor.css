@@ -1,9 +1,13 @@
 .sponsor-heading {
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sponsor-heading h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 4vw;
-    margin-bottom: 5%;
 }
 
 .sponsor-logo-div {
@@ -13,7 +17,7 @@
 
 .sponsor-logo-row1 {
     display: flex;
-    width: 100%;
+    flex: 100%;
     justify-content: space-between;
     padding: 0 8%;
 }
@@ -28,7 +32,7 @@
 .sponsor-logo-div img {
     cursor: pointer;
     max-width: 100%;
-    width: 22vw;
+    width: 20vw;
 }
 
 .img1:hover,
