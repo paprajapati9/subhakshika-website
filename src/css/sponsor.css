@@ -1,192 +1,77 @@
-body {
-    min-width: 768px;
-    background-color: #F0F0F0;
-}
-
-.sponsors {
-    text-align: center;
-}
-
-.spon {
+.sponsor-heading {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 3.5em;
+    font-weight: 500;
+    font-size: 4vw;
+    margin-bottom: 5%;
 }
 
-.images {
-    position: relative;
+.sponsor-logo-div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.photo1 .photo2 .photo3 .photo4 .photo5 .photo6 {
-    position: relative;
+.sponsor-logo-row1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 8%;
 }
 
-.img1 {
-    position: absolute;
+.sponsor-logo-row2 {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+    padding: 5% 8%;
+}
+
+.sponsor-logo-div img {
     cursor: pointer;
-    width: 275px;
-    left: 12em;
-    padding: 45px;
+    max-width: 100%;
+    width: 22vw;
 }
 
-.img1:hover {
-    z-index: 10;
-    transform: scale(1.1) rotate(0.001deg);
-}
-
-.img2 {
-    position: absolute;
-    cursor: pointer;
-    width: 275px;
-    left: 36em;
-    padding: 45px;
-}
-
-.img2:hover {
-    z-index: 10;
-    transform: scale(1.1) rotate(0.001deg);
-}
-
-.img3 {
-    position: relative;
-    cursor: pointer;
-    width: 275px;
-    left: 58em;
-    padding: 30px;
-}
-
-.img3:hover {
-    z-index: 10;
-    transform: scale(1.1) rotate(0.001deg);
-}
-
-.img4 {
-    position: absolute;
-    cursor: pointer;
-    width: 275px;
-    left: 12em;
-    padding: 45px;
-    top: 10em;
-}
-
-.img4:hover {
-    z-index: 10;
-    transform: scale(1.1) rotate(0.001deg);
-}
-
-.img5 {
-    position: absolute;
-    cursor: pointer;
-    width: 275px;
-    left: 36em;
-    padding: 45px;
-    top: 10em;
-}
-
-.img5:hover {
-    z-index: 10;
-    transform: scale(1.1) rotate(0.001deg);
-}
-
-.img6 {
-    position: relative;
-    cursor: pointer;
-    width: 275px;
-    left: 58em;
-    padding: 35px;
-    bottom: 4.5em;
-}
-
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
 .img6:hover {
     z-index: 10;
     transform: scale(1.1) rotate(0.001deg);
 }
 
-.hr {
-    width: 30%;
-    height: 0;
-    position: relative;
-    bottom: -80px;
-    border-style: groove;
+.images-row {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
 }
 
-.image1 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 275px;
-    margin-top: -560px;
+.images-column {
+    flex: 15%;
+    max-width: 22%;
+    padding: 10px;
 }
 
-.image2 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
+.images-column img {
+    margin-top: 8px;
+    width: 100%;
 }
 
-.image3 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
+#border {
+    border-top-left-radius: 10%;
 }
 
-.image4 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
+#border1 {
+    border-bottom-left-radius: 10%;
 }
 
-.image5 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
+#border2 {
+    border-top-right-radius: 10%;
 }
 
-.image6 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
-}
-
-.image7 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
-}
-
-.image8 {
-    border: 4px solid black;
-    position: relative;
-    width: 343px;
-    height: 280px;
-    margin-top: -560px;
-}
-
-.container {
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 250px;
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    grid-gap: 0px;
-    grid-auto-rows: 280px;
-    overflow: hidden;
-}
-
-.items {
-    background-color: white;
-    border-radius: 0px;
+#border3 {
+    border-bottom-right-radius: 10%;
 }
