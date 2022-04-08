@@ -17,8 +17,8 @@
 }
 
 img{
+    min-height: 50%;
     height: auto;
-    width:50%;
     max-width: 100%;
 }
 
@@ -91,5 +91,13 @@ span{
     span{
         font-size:xx-large;
         font-weight: 800;   
+    }
+
+    #we button , #vision button{
+        margin: 5% 18% 4% 0;
+    }
+
+    #origin button{
+        margin: 5% 8% 4% 0 ;
     }
 }
