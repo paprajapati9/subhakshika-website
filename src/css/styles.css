@@ -21,9 +21,9 @@ html{
 
 
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:834px){
     nav{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         padding: 0;
         
     }
@@ -42,10 +42,11 @@ html{
         font-size: 0.5rem;
     }
 }
+
 @media only screen and (max-width:436px){
    
         
-    }
+    
     .hero{
         min-width: 436px;
     }
@@ -62,8 +63,25 @@ nav{
     height: 15px;
     width: 15px;
     border-radius: 100%;
+    margin-bottom: 0rem;
     
   }
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+    height: 2rem;
+    top: 36rem;
+}
 /* Navbar */
 .move{
     rotate: 270;
@@ -143,18 +161,10 @@ dl, ol, ul {
     padding-bottom: 0px;
 }}
 
-.hero {
 
-        min-height: calc(101vh - var(--nav-height));
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        position: relative
-  
-}
 .content {
     position: relative;
-    top: 21rem;
+    top: 20rem;
     left: 9%;
     width: 40%;
 }
@@ -173,7 +183,7 @@ dl, ol, ul {
 .overlay {
     background: rgba(122, 121, 121, 0.44);
     position: absolute;
-    margin-top: 5rem;
+    margin-top: 0rem;
     inset: 0;
     z-index: 0;
     height: 39rem
@@ -231,7 +241,7 @@ dl, ol, ul {
 
 
 /* Submenu Navbar List */
-.submenu-link{
+
 
     /* Google fonts Montserrat */
     
@@ -257,7 +267,7 @@ dl, ol, ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 1em;
+        padding: 0 0.2em;
     }
     
     .logo {
@@ -291,11 +301,11 @@ dl, ol, ul {
     /* Hero */
     
     .hero {
-        min-height: calc(100vh - var(--nav-height));
+        min-height: calc(71vh - var(--nav-height));
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 4em;
+        padding-left: 0em;
         position: relative;
         background-image: url(../img/hero.jpg);
         background-repeat: no-repeat;
@@ -307,12 +317,6 @@ dl, ol, ul {
         position: relative;
     }
     
-    .overlay {
-        background: rgba(122, 121, 121, 0.44);
-        position: absolute;
-        inset: 0;
-        z-index: 0;
-    }
     
     .btn-box {
         margin-top: 1em;
