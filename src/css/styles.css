@@ -82,6 +82,7 @@ nav{
     height: 2rem;
     top: 36rem;
 }
+
 /* Navbar */
 .move{
     rotate: 270;
@@ -571,7 +572,7 @@ dl, ol, ul {
     }
     
     .submenu-link.show .submenu {
-        height: 102px;
+        height: 7rem;
     }
     
     .submenu-link .submenu-list {
@@ -596,6 +597,8 @@ dl, ol, ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: -2rem;
+        margin-top: 0.5rem;
     }
     
     .submenu-link .submenu .submenu-list a {
