@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Subhakshika</title>
 
-<head>
-    <meta charset="UTF-8" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="src/css/styles.css" />
+       <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shubhakshika</title>
@@ -14,54 +28,77 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="src/css/styles.css" />
-</head>
 
-<body>
+    </head>
+    <body>
+
     <header>
-        <nav>
-            <img class="shubhakshika-logo logo" src="src/img/logo.png" alt="" />
+        <nav><div class="logo_">
+            <img class="logo" src="assets/images/logo.png" alt="" /></div>
             <ul>
                 <li class="submenu-link">
-                    <a class="nav-link submenu-nav" href="#">About Us
-                            <img
-                                src="src/img/down-arrow.png"
-                                alt="arrow-down"
-                                class="arrow-down"
-                            />
-                        </a>
+                    <a class="nav-link submenu-nav" href="#"
+                        >About Us
+                        <img
+                            src="assets/images/down-arrow.png"
+                            alt="arrow-down"
+                            class="arrow-down"
+                        />
+                    </a>
                     <div class="submenu">
                         <ul class="submenu-list">
-                            <li><a href="#">About 1</a></li>
-                            <li><a href="#">About 2</a></li>
-                            <li><a href="#">About 3</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="submenu-link">
-                    <a class="nav-link submenu-nav" href="#">Our Projects
-                            <img
-                                src="src/img/down-arrow.png"
-                                alt="arrow-down"
-                                class="arrow-down"
-                            />
-                        </a>
+                    <a class="nav-link submenu-nav" href="#"
+                        >Our Projects
+                        <img
+                            src="assets/images/down-arrow.png"
+                            alt="arrow-down"
+                            class="arrow-down"
+                        />
+                    </a>
                     <div class="submenu">
                         <ul class="submenu-list">
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                            <li><a href="#">Project 3</a></li>
+                            <li><a href="#">Project</a></li>
+                            <li><a href="#">Project</a></li>
+                            <li><a href="#">Project</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a class="nav-link" href="#">Sponsors </a></li>
-                <li>
-                    <a class="nav-link" href="#">Contact Us </a>
-                </li>
-                <li><a class="nav-button" href="#">Volunteer!</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <div class="overlay"></div>
+                    <li><a class="nav-link" href="#">Sponsors </a></li>
+                    <li>
+                        <a class="nav-link" href="#">Contact Us </a>
+                    </li>
+                    <li><div class="volunt"><a class="nav-button" href="#" >Volunteer!</a></div></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/images/hero.jpg" class="d-block w-100 img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/landing3.jpeg" class="d-block w-100 img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/landing4.jpeg" class="d-block w-100 img-fluid" alt="...">
+                      </div>
+                     
+                
+        </div>
+       
+            <div class="overlay">
             <div class="content">
                 <h1 class="logo-head">Shubhakshika</h1>
                 <h2>
@@ -73,11 +110,6 @@
                 </div>
             </div>
 
-            <div class="circles">
-                <div class="circle circle1"></div>
-                <div class="circle circle2 current"></div>
-                <div class="circle circle3"></div>
-            </div>
         </div>
     </header>
 
@@ -135,35 +167,40 @@
                                 <img src="src/img/chevron-right.svg" alt="" />
                             </button>
                         </div>
+
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    
                 </div>
-                <div class="about-dark-wrapper">
-                    <div class="about-child about-3">
-                        <img
-                            class="about-img"
-                            src="src/img/GirlChildProject4.jpeg"
-                            alt=""
-                        />
-                        <div class="about-content">
-                            <div>
-                                <h1>Vision and Mission</h1>
-                                <p>
-                                    Upliftment and elevation of underpriviledged
-                                    and deprived section of society, <br />
-                                    To contribute towards educated and empowered
-                                    India <br />
-                                    To rehabilitate the marginalised sections
-                                    socially and economically,<br />
-                                    Love and care for every child
-                                </p>
-                            </div>
-                            <button>
-                                Read More
-                                <img src="src/img/chevron-right_blue.svg" alt="" />
-                            </button>
+                <div class="overlay">
+                    
+                    <div class="content">
+                        <h1 class="logo-head">Shubhakshika</h1>
+                        <h2>
+                            Building the <br />
+                            dreams
+                        </h2>
+                        <div class="btn-box">
+                            <a class="btn-donate">Donate Now!</a>
+                            <a class="btn-volunteer">Volunteer!</a>
                         </div>
                     </div>
+    
                 </div>
+
+                
+               
+            </div>
+        </header>
+
             </div 
         </div> -->
         <div class="about" id="we">
@@ -306,6 +343,17 @@
             <button class="our-projects__button"></button>
         </div>
     </section>
-</body>
 
+     
+
+
+      
+       
+        <script src="src/js/carousel.js"></script>
+        <script src="src/js/navbar.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>        
+     </body>
 </html>
+
