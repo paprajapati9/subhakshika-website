@@ -1043,7 +1043,7 @@ dl, ol, ul {
     
     .images-column {
         flex: 15%;
-        max-width: 30%;
+        max-width: 22%;
         padding: 10px;
     }
     
