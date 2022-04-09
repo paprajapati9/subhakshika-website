@@ -1,0 +1,132 @@
+body{
+    margin:0;
+}
+
+.site-footer{
+    background-color:#313844;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.footer-head{
+    height:auto;
+    
+}
+
+.footer-head h2{
+    color:rgb(241, 241, 241);
+    text-align: center;
+    font-family: "Roboto";
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#footer-social-media-heading h4{
+    color:rgb(241, 241, 241);
+    text-align: center;
+    font-family: "Roboto";
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.footer-abt-us h4,.footer-site-links h4,.footer-get-involved h4,.footer-our-projects h4{
+    color:rgb(241, 241, 241);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 0px ;
+}
+
+
+
+.footer-content{
+    display:flex;
+    flex-direction: row;
+    column-gap:3%;
+    padding: 0 5%;
+
+}
+.footer-abt-us,.footer-site-links,.footer-get-involved,.footer-our-projects{
+    text-align: center;
+}
+
+.footer-content *{
+    
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+} 
+
+.footer-our-projects{
+    flex: 1.2;
+}
+
+.footer-content > *{
+    flex: 1;
+}
+
+.footer-content ul{
+    padding:0;
+}
+
+.footer-content li  {
+    list-style: none;
+}
+.footer-content li a{
+    text-decoration: none;
+}
+.footer-content a:hover
+{
+  color:#00A7F6;
+ 
+}
+#footer-sm-logo{
+    font-size:12px;
+}
+
+#footer-sm-logo  a:hover{
+background-color:transparent;
+opacity:0.3%;
+
+}
+
+.footer-social-media-icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap:3%;
+    position:relative;
+    bottom:30px;
+   
+}
+
+.fa{
+    color:white;
+    text-decoration: none;
+   
+
+}
+
+
+
+   
+
+
+
+/*
+@media (max-width: 468px) {
+    .footer-content{
+        flex-direction: column;
+    }
+}*/
