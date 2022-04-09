@@ -1,83 +1,88 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubhakshika</title>
-    <link rel="stylesheet" href="src/css/style.css">
-  </head>
-  <body>
+<html>
+<head>
+    <title>Carousel</title>
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
-<h1 class="heading">Our Success Stories</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<div class="stories">
+    <link rel="stylesheet" href="src/css/index.css" >
+</head>
+<body>
+    <div class="main_heading">
+        <h1 class="heading">Our Success Stories</h1>
+    </div>
+    <div class="d-flex justify-content-center flex-wrap main_upper_box">
+        <div id="carouselExampleControls" class="carousel slide main_id" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-row main_block">
+                        <div class="main_block_image">
+                            <img class="image" src="assets/images/pic.jpeg" alt="image" width="210" height="210">
+                        </div>
+                        <div class="main_block_content">
+                            <h4 class="main_block_heading">Story One</h4>
+                            <p class="main_block_para">
+                                The months and years of hardwork seem all the more worth it, as we see the tensions fade away from the faces of the people an..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-row main_block">
+                        <div class="main_block_image">
+                            <img class="image" src="assets/images/pic2.jpeg" alt="image" width="210" height="210">
+                        </div>
+                        <div class="main_block_content" style=" background-color: #F7F7F7 ;padding: 15px;">
+                            <h4 class="main_block_heading">Story Two</h4>
+                            <p class="main_block_para">
+                                The months and years of hardwork seem all the more worth it, as we see the tensions fade away from the faces
+                                of the people an..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" >
+                    <div class="d-flex flex-row main_block">
+                        <div class="main_block_image">
+                            <img class="image" src="assets/images/pic3.jpeg" alt="image" width="210" height="210">
+                        </div>
+                        <div class="main_block_content">
+                            <h4 class="main_block_heading">Story Three</h4>
+                            <p class="main_block_para">
+                                The months and years of hardwork seem all the more worth it, as we see the tensions fade away from the faces
+                                of the people an..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<div class="story1">
-<img class="image" src="assets/images/pic.jpeg" alt="image" width="180" height="160">
-<h2 class="story1_">Story One</h2>
-<p class="story1_cont">The months and years of hardwork</p>
-<p class="story1_cont">seem all the more worth it, as we</p>
-<p class="story1_cont">see the tensions fade away from</p>
-<p class="story1_cont">the faces of the people an..</p>
-<img class="arrow "src="assets/images/arrow.png" alt="arrow" width=22px height=22px>
-
-</div>
-
-<div class="story2">
-<img class="image" src="assets/images/pic2.jpeg" alt="image" width="180" height="160">
-<h2 class="story2_">Story Two</h2>
-<p class="story2_cont">The months and years of hardwork</p>
-<p class="story2_cont">seem all the more worth it, as we</p>
-<p class="story2_cont">see the tensions fade away from</p>
-<p class="story2_cont">the faces of the people an..</p>
-<img class="arrow "src="assets/images/arrow.png" alt="arrow" width=22px height=22px>
-</div>
-
-<div class="story3">
-<img class="image3" src="assets/images/pic3.jpeg" alt="image" width="180" height="160">
-<h2 class="story3_">Story Three</h2>
-<p class="story3_cont"><span>The months and years of hardwork</span></p>
-<p class="story3_cont">seem all the more worth it, as we</p>
-<p class="story3_cont">see the tensions fade away from</p>
-<p class="story3_cont">the faces of the people an..</p>
-<img class="arrow "src="assets/images/arrow.png" alt="arrow" width=22px height=22px>
-</div>
-
-
-</div>
-
-<div class="content_lower">
-
-
-<div class="served">
-  <h2>Served Over</h2>
-  <br>
-  <p class="number">6500+</p>
-  <p class="content_1">children all over the country</p>
-  <p class="content_1">in need of resources</p>
-</div>
-
-<div class="sponsor">
-  <h2>Sponsor A Child</h2>
-  <br>
-  <p class="content_2">Even the all-powerful Pointing</p>
-  <p class="content_2">has no control about the blind</p>
-  <p class="content_2">texts</p>
-  <p class="donate">Donate!</p>
-</div>
-
-<div class="volunteer">
-<h2>Volunteer!</h2>
-<br>
-<p class="content_3">Even the all-powerful Pointing</p>
-<p class="content_3">has no control about the blind</p>
-<p class="content_3">texts</p>
-<p class="volunteer_">Volunteer!</p>
-
-</div>
-
-
-</div>
-  </body>
+            <button class="carousel-control-next main_button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" style="background-image:url(assets/images/arrow.png)" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-around flex-row">
+        <div class="lower_container">
+            <h4>Served Over</h4>
+            <p class="content"><span class="content_number">6500+</span><br> children all over the country in need of resources</p>
+        </div>
+        <div class="lower_container">
+            <h4>Sponsor A Child</h4>
+            <p class="content">Even the all-powerful Pointing has no control about the blind texts</p>
+            <button class="btn btn-outline-secondary buttons_lower" >Donate!</button>
+        </div>
+        <div class="lower_container">
+            <h4>Volunteer!</h4>
+            <p class="content">Even the all-powerful Pointing has no control about the blind texts</p>
+            <button class="btn btn-outline-secondary buttons_lower">Volunteer!</button>
+        </div>
+    </div>
+</body>
 </html>

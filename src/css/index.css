@@ -1,0 +1,53 @@
+.main_heading{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.main_upper_box{
+  margin-bottom: 100px
+}
+
+.main_id{
+   width: 40%;
+}
+
+.image{
+  border-radius: 10px 0 0 10px;
+  width: 12em;
+  height: 12em;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.main_block_content{
+  background-color: #F7F7F7 ;
+  padding: 15px;
+  overflow: hidden;
+  width: 80%;
+  height: 12em;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow-wrap: break-word;
+}
+
+.main_button{
+  padding-bottom: 10px;
+  align-items: flex-end;
+}
+
+
+.lower_container{
+  width: 16%;
+  height: 16%;
+}
+
+.content_number{
+  font-weight: 2px;
+  font-size: 40px;
+}
+
+.buttons_lower{
+  border-color: black;
+  border-width: 2px;
+  color: black;
+}
