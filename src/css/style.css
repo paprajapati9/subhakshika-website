@@ -1,297 +1,359 @@
-#logo{
-    position:relative;
-    left: 80px;       /*shifted 80px from left*/
-    bottom:120px;    /*shifted 120px form bottom*/
-    width:110px;   /* specifying the width of our logo*/
-    cursor: pointer;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
-header{
-    position:relative;
-    top:107px;
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 0px;
+    padding: 0%;
 }
 
-
-nav{
-    background:white;
-    text-align: right;
-    position: relative;
-    bottom: 20px;
- 	width: 1500px;
-  	height: 100px;
-    cursor: pointer;
-
+.top-image {
+    width: 70px;
+    background-color: white;
+    height: 70px;
+    margin-left: 30px;
+    vertical-align: middle;
 }
-/*to remove underline form the links we set text decoration as none here*/
-nav a {
+
+.navbuttons {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.about_button {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+    position: absolute;
+    vertical-align: middle;
+    padding-top: 5px;
+    right: 36em;
     text-decoration: none;
 }
 
-/*navbar anchor tag link styling*/
-a{
-    display: inline;  /*so that all links are inline*/
-	font-size:26px;
-	margin-left: 15px;
-	margin-right: 30px;
-	margin-top: 0px;
-    margin-bottom: -90px;
-    color:black;
-    position:relative;
-    bottom:80px;
-    font-family: 'Roboto', sans-serif;
-	
+.ourprojects {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: absolute;
+    vertical-align: middle;
+    right: 27em;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
-/* :hover is used when we will point our mouse to that then background color will change*/
-nav a:hover{
-  color:blue;
+.sponsor {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: absolute;
+    vertical-align: middle;
+    right: 20em;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
-#arrow1{
-    margin: 5px 0px -3px -30px;
-    /*negative value in margin places it closer */
-    position:relative;
-    bottom:80px;
-    width:20px;
-    height:20px;
-   }
-
-#arrow2{
-    margin: 5px 0px -3px -30px;
-    /*negative value in margin places it closer */
-    position:relative;
-    bottom:80px;
-    width:20px;
-    height:20px;
+.contacts {
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    vertical-align: middle;
+    right: 210px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
-/*volunteer button*/
-#button1{
-    background-color:#548CFF;
-    color:white;
-    padding: 10px;
-    margin-right: 20px;
-    border-radius: 8px;
-    font-size: 24px;
-    position:relative;
-    bottom:80px;
-    font-style: "Fredoka";
-    border:#00B4D8;
+.volunteer {
+    background-color: #3DB2FF;
     text-align: center;
-    width:155px;
-    height: 42px;
-   cursor: pointer; /*by this when cursor is moved to the button it is changed to pointer*/
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: larger;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+    padding-top: 5px;
+    text-decoration: none;
+    height: 30px;
+    width: 120px;
+    font-weight: 550;
+    color: white;
 }
 
-#button1:hover{
-    background-color:blue;
+.volunteer:hover {
+    background-color: #8BDB81
 }
 
-/*seting the background image of homepage*/
-.background {
-    background-image:url("assets/images/images/bhavika.jpg") ; /*to add the background image*/
-    background-repeat:no-repeat;   /*when we want only single photo we write no repeat ,otherwise we can give axis in which we want to repeat*/
-    background-attachment:scroll;  /*The background image will scroll with the page.*/
-    background-size: 2050px;
-    margin: -8px 0px 0px -10px;
-	height: 640px;
-	width:1518px;
+.container {
     position: relative;
-    bottom: 220px;
-    left:3px;
- }
-
-h1{
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
-    text-align: left;
-    text-indent: 2%;
-    line-height: 8px;
-    position: relative;
-    top: 200px;
 }
 
-.heading1{
-    font-size: 85px;
+.content {
+    position: relative;
 }
 
-/*donate button */
-#button2{
-    background-color:#548CFF;
-    color:white; 
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 21px;
-    position: relative;
-    left: 45px;
-    top:200px;
-    border:#00B4D8;
-    width:155px;
-    height: 44px;
-    font-style: "Fredoka";
+.overlay {
+    background: rgba(122, 121, 121, 0.44);
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+h1 {
+    position: absolute;
+    bottom: 330px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 00.05em;
+    color: white;
+    font-size: 3em;
+}
+
+h2 {
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.03em;
+}
+
+.button-box {
+    display: flex;
+    gap: 0.5em;
+}
+
+.donate {
+    background-color: #3DB2FF;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    bottom: 200px;
+    left: 50px;
+    font-size: larger;
+    position: absolute;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 35px;
+    text-decoration: none;
     cursor: pointer;
 }
 
-#button2:hover{
-    background-color:blue;
-    
+.volun {
+    background-color: transparent;
+    text-align: center;
+    border: solid white 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    bottom: 200px;
+    left: 220px;
+    font-size: larger;
+    position: absolute;
+    border-radius: 5px;
+    padding: 0.4em 1.05em;
+    height: 25px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-/*volunteer button*/
-#button3{
-    background-color:transparent;
-    color:white;
-    border-radius: 8px;
-    font-size: 30px;
+.circles {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.circle-1 {
+    width: 15px;
+    border-radius: 50%;
+    background: #FFFA;
+    cursor: pointer;
+    left: 200px;
+}
+
+.circle-current {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: blue;
+    left: 175px;
+    cursor: pointer;
+}
+
+.circle-3 {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #FFFA;
+    cursor: pointer;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.box1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #DFF6FF;
+}
+
+.img1 {
+    position: absolute;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.whoarewe {
+    color: black;
+    position: absolute;
+    left: 568px;
+    top: 30px;
+}
+
+.para1 {
+    position: relative;
+    left: 574px;
+    top: 120px;
+    width: 42%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.read1 {
+    position: absolute;
+    right: 6em;
+    font-size: larger;
+    top: 300px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3DB2FF;
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px 20px;
+    border-color: #3DB2FF;
+    border-radius: 5px;
+}
+
+.fa fa-caret-right {
+    color: #3DB2FF;
+    size: 25px;
+}
+
+.box2 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.img2 {
+    position: absolute;
+    right: 0%;
+    top: 25em;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.origin {
+    position: absolute;
+    color: black;
+    left: 55px;
+    top: 410px;
+}
+
+.para2 {
     position: relative;
     left: 60px;
-    top:200px;
-    border:#F7F7F7 solid;
-    cursor: pointer;
-    }
-
-#button3:hover{
-    background-color:rgba(255, 255, 255, 1) ;
-    color: black;
- 
-}
-
-/*the dotted hr*/
-hr{
-    border-style:none;
-    border-top-style: dotted;
-    border-color:#548CFF;
-    border-width: 20px ;
-    width:100px;
-    height:100px;
-    position: relative;
-    bottom: 300px;
-}
-
-.content{
-    background-color:#F7F7F7;
-    position: relative;
-    bottom:380px;
-    right:20px;
-    margin-right: -40px;
-    margin-top:-20px;
-    font-family: 'Roboto', sans-serif;
-  }
-
- /*image of boy*/ 
-#boy{
-
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #ECECEC;
-    width: 420px;
-    height:285px;
-   
-    
-  }
-
-h2{
-    text-indent: 3%;
-    font-size: 50px;
-    position: relative;
-    top:40px;
-    
-}
-/*button of read more*/
-#button4{
-   color:#00B4D8;
-   margin-left:630px;
-   position: relative;
-   bottom:20px;
-   border:#00B4D8 solid;
-   font-size: 20px;
-   border-radius:3px ;
-   padding:8px;
-   background-color: white; 
-   cursor: pointer;
-}
-
-#button4:hover{
-    background-color:rgba(255, 255, 255, 1) ;
-    color: black;
-    border-color:black ;
-}
-
-.content2{
-    position: relative;
-    bottom:480px;
-    margin-top: -18px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#girl{
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px black;
-    position: relative;
-    bottom:10px;
-    margin-right:-14px;
-    width:480px;
-   }
- 
-   /*our team button*/  
-#button5{
-    margin-left:600px;
-    background-color: white;
-    border:black solid;
+    top: 500px;
+    width: 40%;
+    text-align: justify;
     font-size: 25px;
-    position: relative;
-    bottom:20px;
-    border-radius:3px ;
-    padding: 8px;
-    height:48px;
-    width:170px;
-    cursor: pointer;
- }
-
- #button5:hover{
-    color:#00B4D8;
-    border:#00B4D8 solid;
- }
-
- .content3{
-    background-color:#F7F7F7;
-    position: relative;
-    bottom:500px;
-    margin-top: -68px;
-    font-family: 'Roboto', sans-serif;
-    margin-right: -30px;
 }
 
-#group{
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #ECECEC;
-    margin-left:-20px;
-    margin-top: 6px;
-   
-}
-
-p{
-    text-align: left;
-    text-indent: 3%;
-    line-height: 1%;
-    font-size: 130%;
+.ourteam {
+    position: absolute;
+    left: 41em;
+    font-size: larger;
+    top: 670px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-weight:500;
-    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px 20px;
+    border-color: black;
+    border-radius: 5px;
 }
 
+.box3 {
+    position: absolute;
+    display: flex;
+    height: 400px;
+    top: 50em;
+    width: 100%;
+    background-color: #DFF6FF;
+}
 
+.img3 {
+    position: absolute;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
 
+.vision {
+    color: black;
+    position: absolute;
+    left: 568px;
+    top: 55px;
+}
 
+.para3 {
+    position: relative;
+    left: 574px;
+    top: 150px;
+    width: 40%;
+    text-align: justify;
+    font-size: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.mission {
+    position: absolute;
+    right: 6em;
+    font-size: larger;
+    top: 300px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3DB2FF;
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px 20px;
+    border-color: #3DB2FF;
+    border-radius: 5px;
+}
