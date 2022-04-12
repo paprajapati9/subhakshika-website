@@ -1,13 +1,5 @@
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
 
-}
 
 :root {
     --blue: rgb(0, 153, 255);
@@ -247,15 +239,9 @@ dl, ol, ul {
     /* Google fonts Montserrat */
     
     @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-    *,
-    *::before,
-    *::after {
-        /* margin: 0; */
-        /* padding: 0; */
-        box-sizing: border-box;
-        font-family: "Roboto";
-    }
     
+    
+  
      :root {
         --blue: rgb(0, 153, 255);
         --nav-height: 80px;
@@ -1163,11 +1149,13 @@ dl, ol, ul {
         height:auto;
         display:flex;
         flex-direction: column;
+        margin-top: 50px;
     }
     
     .footer-head{
         height:auto;
-        
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     
     .footer-head h2{
@@ -1196,9 +1184,11 @@ dl, ol, ul {
         font-weight: 600;
         line-height: 25px;
         letter-spacing: 0em;
-        text-align: center;
+        text-align: left;
         padding-bottom: 0px ;
     }
+
+
     
     
     
@@ -1210,7 +1200,7 @@ dl, ol, ul {
     
     }
     .footer-abt-us,.footer-site-links,.footer-get-involved,.footer-our-projects{
-        text-align: center;
+        text-align: left;
     }
     
     .footer-content *{
@@ -1220,7 +1210,7 @@ dl, ol, ul {
         font-weight: 400;
         line-height: 25px;
         letter-spacing: 0em;
-        text-align: center;
+        text-align: left;
         color: #FFFFFF;
     } 
     
@@ -1247,11 +1237,13 @@ dl, ol, ul {
       color:#00A7F6;
      
     }
-    #footer-sm-logo{
-        font-size:12px;
+    
+    .footer-sm-logo{
+        font-size:9px;
+       
     }
     
-    #footer-sm-logo  a:hover{
+    .footer-sm-logo  a:hover{
     background-color:transparent;
     opacity:0.3%;
     
@@ -1264,15 +1256,24 @@ dl, ol, ul {
         column-gap:3%;
         position:relative;
         bottom:30px;
+        margin: 1%;
        
     }
-/*     
-    .fa{
+     
+    .fa-brands{
         color:white;
         text-decoration: none;
           
-    } */
-    
+    } 
+
+    #registered-with h6{
+        color:rgb(241, 241, 241);
+        text-align: center;
+        font-family: "Roboto";
+        line-height: 10px;
+        font-size:15px;
+
+    }
     
     
        
