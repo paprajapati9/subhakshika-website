@@ -1,11 +1,11 @@
-*,
+/*,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto";
-}
+}*/
 
 :root {
     --blue: rgb(0, 153, 255);
@@ -260,14 +260,15 @@ a:focus {
 /* Google fonts Montserrat */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-*,
+
+/* *,
 *::before,
 *::after {
-    /* margin: 0; */
-    /* padding: 0; */
+    /* margin: 0; 
+    /* padding: 0; 
     box-sizing: border-box;
     font-family: "Roboto";
-}
+}*/
 
  :root {
     --blue: rgb(0, 153, 255);
@@ -884,6 +885,72 @@ body {
     background: #FFFA;
     cursor: pointer;
 } */
+
+
+/*our success stories*/
+
+.main_heading {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.main_upper_box {
+    margin-bottom: 9em;
+}
+
+.main_id {
+    width: 40%;
+}
+
+.image {
+    border-radius: 10px 0 0 10px;
+    width: 12em;
+    height: 12em;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.main_block_content {
+    background-color: #F7F7F7;
+    overflow: hidden;
+    width: 80%;
+    height: 12em;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    overflow-wrap: break-word;
+}
+
+.main_button {
+    padding-bottom: 10px;
+    align-items: flex-end;
+    width: 10%;
+    right: 0.1rem;
+    opacity: 100%;
+}
+
+.lower_container {
+    width: 20%;
+    height: 30%;
+}
+
+.content_number {
+    font-weight: 2px;
+    font-size: 30px;
+}
+
+.buttons_lower {
+    border-color: black;
+    border-width: 2px;
+    color: black;
+}
+
+.lower_content_ {
+    margin-bottom: 3rem;
+}
+
+
+/*    */
 
 .boxes {
     position: relative;
