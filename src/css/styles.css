@@ -1,11 +1,4 @@
-/**,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
-}*/
+
 
 :root {
     --blue: rgb(0, 153, 255);
