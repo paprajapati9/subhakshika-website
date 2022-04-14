@@ -588,7 +588,7 @@ p {
 
 .submenu-link .submenu {
     position: absolute;
-    width: 80px;
+    width: 9rem;
     background-color: #fff;
     z-index: 10;
     padding: 0 10px;
@@ -599,7 +599,7 @@ p {
 }
 
 .submenu-link.show .submenu {
-    height: 7.1rem;
+    height: 10.1rem;
 }
 
 .submenu-link .submenu-list {
@@ -609,6 +609,7 @@ p {
 .submenu-link.show .submenu-list {
     opacity: 1;
     transition-delay: 0.15s;
+    height: 9.1rem;
 }
 
 .submenu-link .arrow-down {
@@ -623,9 +624,10 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: -2rem;
+    
+    margin-left: 0rem;
     margin-top: 0.5rem;
+    padding: 0px 0px 0px 0px;
 }
 
 .submenu-link .submenu .submenu-list a {
