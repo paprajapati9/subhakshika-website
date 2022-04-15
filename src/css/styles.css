@@ -252,7 +252,110 @@ a:focus {
 
 
 /* About Section */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto ;
+}
 
+.about{
+    background-color:#f5f7fa;
+}
+
+#we , #origin , #vision{
+    display: flex;
+    color: black;
+    font-size:large;
+    font-weight: 450;
+    text-align: left;
+}
+
+img{
+    min-height: 50%;
+    height: auto;
+    max-width: 100%;
+}
+
+span{
+    color: black;
+    font-size:x-large;
+    font-weight: 600;   
+}
+
+.text{
+    padding:2%;
+    margin:10px;
+    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#origin{
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.about img{
+    margin: 15px 10px 15px 0px;
+    border-radius: 0px 25px 25px 0px ;
+    box-shadow: -5px 5px 5px #737373;
+}
+
+#origin img{
+    margin: 15px 0px 15px 10px;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: 10px 5px 5px #737373;
+}
+
+#we button , #vision button ,#origin button{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 600;
+    color: #737373;
+    display: block;
+    border: 2.5px solid #737373;
+    border-radius: 6px;
+    text-align: center;
+    margin: 19% 4% 1% 0;
+    padding:5px;
+    float: left;
+}
+
+#we button:hover , #vision button:hover ,#origin button:hover{
+    background-color:white;
+    color: #00a7f6;
+    border-color: #00a7f6;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+@media only screen and (min-width:768px) {
+    .text{
+        padding:2%;
+        margin:18px; 
+    }
+
+    img{
+        width: 45%;
+    }
+
+    #we , #origin , #vision{
+        font-size: x-larger;
+        font-weight: 420;
+    }
+
+    span{
+        font-size:xx-large;
+        font-weight: 500;   
+    }
+
+    #we button , #vision button , #origin button{
+        margin-top: 5% ;
+    }
+
+    #para1, #para2 , #para3{
+        margin-top: 50px;
+    }
+}
 
 /* Submenu Navbar List */
 
@@ -409,175 +512,11 @@ nav ul li a {
 }
 
 
-/* About Section */
 
 
-/*
-.about-child {
-    width: 80%;
-    max-width: 900px;
-    margin: auto;
-}
-
-.about-child {
-    display: flex;
-    align-items: center;
-    gap: 3.2em;
-    padding-block: 2em;
-}
-
-.about-2 {
-    flex-direction: row-reverse;
-}
-
-.about-2 button {
-    color: #000 !important;
-    border-color: #000 !important;
-}
-
-.about-img {
-    width: 350px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-.about-content h1 {
-    font-weight: 500;
-    font-size: 2.2rem;
-    margin-bottom: 0.7em;
-}
-
-.about-content button {
-    margin-block: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4em;
-    padding: 0.5em 0.7em;
-    cursor: pointer;
-
-    background: transparent;
-    border: 2px solid var(--blue);
-    color: var(--blue);
-    font-weight: 500;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
-.about-dark-wrapper {
-    background-color: #f6f7fb;
-}
-*/
 
 
-/* -------------------------------------------- */
 
-.about img {
-    height: 45vh;
-    width: 75vw;
-    padding: 5px 20px 20px 10px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    border-radius: 0px 25px 25px 0px;
-}
-
-.about {
-    display: flex;
-    background-color: #f5f7fa;
-    margin-bottom: 5%;
-}
-
-span {
-    color: black;
-    font-size: xx-large;
-    font-weight: 800;
-}
-
-#we,
-#origin,
-#vision {
-    color: black;
-    font-size: larger;
-    font-weight: 600;
-}
-
-.text {
-    padding: 2%;
-    margin: 10px;
-    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    word-wrap: inherit;
-    height: 50px;
-}
-
-p {
-    height: 12px;
-    display: block;
-    float: none;
-}
-
-#origin {
-    background-color: #ffffff;
-    float: left;
-    text-align: left;
-}
-
-#origin img {
-    width: 75vw;
-    height: 45vh;
-    padding: 0px 20px 20px 10px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    border-radius: 25px 0px 0px 25px;
-    float: right;
-    box-shadow: 10px 5px 5px #737373;
-}
-
-#vision {
-    float: right;
-    text-align: left;
-}
-
-#vision img {
-    width: 45vw;
-    height: 45vh;
-}
-
-#we button,
-#vision button,
-#origin button {
-    background-color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-    color: #737373;
-    display: block;
-    width: 25%;
-    height: 5%;
-    border: 2.5px solid #737373;
-    border-radius: 6px;
-    text-align: center;
-    margin: 19% 4% 1% 0;
-    padding: 5px;
-}
-
-#vision button {
-    width: 10%;
-    color: #737373;
-}
-
-#we button:hover,
-#vision button:hover,
-#origin button:hover {
-    background-color: white;
-    color: #00a7f6;
-    border-color: #00a7f6;
-    cursor: pointer;
-    transition-duration: .2s;
-}
 
 
 /* Submenu Navbar List */
