@@ -2,7 +2,7 @@
 
 About us Section Subhakshikha 
 
-Live Site Url : https://stern11.github.io/subhakshika-website/ 
+Live Site Url : https://stern11.github.io/About-Us-Subhakshika/
 =======
 # website-structure
 A general template structure that should be followed by all simple js, html, css based websites
