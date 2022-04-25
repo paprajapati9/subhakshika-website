@@ -1,11 +1,5 @@
-/*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
-}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
     --blue: rgb(0, 153, 255);
@@ -515,7 +509,7 @@ span {
 }
 
 p {
-    height: 12px;
+    /* height: 12px; */
     display: block;
     float: none;
 }
@@ -1264,9 +1258,10 @@ body {
 .our-projects__card {
     width: 300px;
     position: relative;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(177, 199, 225, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        inset 0px 4px 4px rgba(177, 199, 225, 0.25);
     border-radius: 52px;
-    min-height: 432px;
+    min-height: 483px;
 }
 
 .our-projects__card .card-image-container {
@@ -1314,18 +1309,74 @@ body {
     gap: 5px;
 }
 
-.our-projects__buttons-rail .our-projects__button {
-    background: #00A7F6;
+
+.our-projects-section .our-projects__button {
+    background: #00a7f6;
     border-radius: 8px;
     width: 20px;
     height: 14px;
     border: none;
     cursor: pointer;
+    opacity: 1 !important;
+    transition: all 0.4s ease;
+}
+.our-projects-section .our-projects__button--active {
+    background: #484d54;
 }
 
-.our-projects__buttons-rail .our-projects__button.active {
-    background: #484D54;
+/* Our projects Swiper */
+.swiper {
+    width: 900px;
+    height: 600px;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    visibility: hidden;
+}
+.swiper-pagination {
+    margin-top: 50px;
+}
+
+/* Our projects modal */
+.our-projects__modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.our-projects__modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.our-projects__close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.our-projects__close:hover,
+.our-projects__close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 body {
     margin: 0;
