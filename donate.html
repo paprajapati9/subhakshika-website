@@ -2,19 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate Now</title>
-    <link rel="stylesheet" href="src/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/donate.css"/>
+    <title>Donate</title>
+
 </head>
 
 <body>
-    <div class="qr-code">
-        <img src="assets/images/SHUBHAKSHIKA QR CODE.jpg" alt="qr-code">
+    <nav>
+        <div class="logo_">
+            <img class="logo" src="assets/images/logo.png" alt="" /></div>
+        <ul>
+            <li class="submenu-link">
+                <a class="nav-link submenu-nav" href="#">About Us
+                    <img
+                        src="assets/images/down-arrow.png"
+                        alt="arrow-down"
+                        class="arrow-down"
+                    />
+                </a>
+                <div class="submenu">
+                    <ul class="submenu-list">
+                        <li><a href="#we">About us</a></li>
+                        <li><a href="#origin">Origin</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="submenu-link">
+                <a class="nav-link submenu-nav" href="#">Our Projects
+                    <img
+                        src="assets/images/down-arrow.png"
+                        alt="arrow-down"
+                        class="arrow-down"
+                    />
+                </a>
+                <div class="submenu">
+                    <ul class="submenu-list">
+                        <li><a href="#Girl Child">Girl Child Project</a></li>
+                        <li><a href="#Open Shelter">Open Shelter Homes for Boys</a></li>
+                        <li><a href="#Non Formal">Non Formal Education</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="nav-link" href="#">Sponsors </a></li>
+            <li>
+                <a class="nav-link" href="#">Contact Us </a>
+            </li>
+            <li>
+                <div class="volunt"><a class="nav-button" href="https://forms.gle/pztLCoWqPJTezDYv9" target="_blank">Volunteer!</a></div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="donate-us-header">
+        <h1>Donate Us</h1>
+        <img src='src/img/qr-code.png' alt="qr code" style="height:400px;width:400px">
     </div>
 
+    <div class="donate-us-details">
+        <h5 id="donate-name">Shubhakshika</h5>
+        <div id="donate-id">
+            <h5>MID: 037212017190005</h5>
+            <h5>TID: 86575851</h5>
+        </div>
+    </div>
 
+    <script src="src/js/navbar.js"></script>
 </body>
-
-</html>
