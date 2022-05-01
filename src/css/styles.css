@@ -1,6 +1,4 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 :root {
     --blue: rgb(0, 153, 255);
     --nav-height: 80px;
@@ -57,7 +55,7 @@ nav {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 2;
+    z-index: 0;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -174,7 +172,7 @@ a:focus {
 
 .content {
     position: relative;
-    top: 12rem;
+    top: 7rem;
     left: 9%;
     width: 40%;
     display: grid;
@@ -261,8 +259,6 @@ a:focus {
 /* Google fonts Montserrat */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-
  :root {
     --blue: rgb(0, 153, 255);
     --nav-height: 80px;
@@ -340,8 +336,8 @@ nav ul li a {
 }
 
 .logo-head {
-    letter-spacing: 0.05em;
-    font-size: 4.8rem;
+    letter-spacing: 0.00em;
+    font-size: 5.8rem;
     margin-bottom: 0.01em;
 }
 
@@ -583,7 +579,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     margin-left: 0rem;
     margin-top: 0.5rem;
     padding: 0px 0px 0px 0px;
@@ -1224,8 +1219,7 @@ body {
 .our-projects__card {
     width: 300px;
     position: relative;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-        inset 0px 4px 4px rgba(177, 199, 225, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(177, 199, 225, 0.25);
     border-radius: 52px;
     min-height: 483px;
 }
@@ -1275,7 +1269,6 @@ body {
     gap: 5px;
 }
 
-
 .our-projects-section .our-projects__button {
     background: #00a7f6;
     border-radius: 8px;
@@ -1286,11 +1279,14 @@ body {
     opacity: 1 !important;
     transition: all 0.4s ease;
 }
+
 .our-projects-section .our-projects__button--active {
     background: #484d54;
 }
 
+
 /* Our projects Swiper */
+
 .swiper {
     width: 900px;
     height: 600px;
@@ -1300,26 +1296,40 @@ body {
 .swiper-button-prev {
     visibility: hidden;
 }
+
 .swiper-pagination {
     margin-top: 50px;
 }
 
+
 /* Our projects modal */
+
 .our-projects__modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
+
 /* Modal Content */
+
 .our-projects__modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -1329,7 +1339,9 @@ body {
     position: relative;
 }
 
+
 /* The Close Button */
+
 .our-projects__close {
     color: #aaaaaa;
     float: right;
@@ -1349,26 +1361,27 @@ body {
 
 
 /*footer*/
-body{
-    margin:0;
+
+body {
+    margin: 0;
 }
 
-.site-footer{
-    background-color:#313844;
-    height:auto;
-    display:flex;
+.site-footer {
+    background-color: #313844;
+    height: auto;
+    display: flex;
     flex-direction: column;
     margin-top: 50px;
 }
 
-.footer-head{
-    height:auto;
+.footer-head {
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.footer-head h2{
-    color:rgb(241, 241, 241);
+.footer-head h2 {
+    color: rgb(241, 241, 241);
     text-align: center;
     font-family: "Roboto";
     line-height: 40px;
@@ -1376,8 +1389,8 @@ body{
     font-weight: 500;
 }
 
-#footer-social-media-heading h4{
-    color:rgb(241, 241, 241);
+#footer-social-media-heading h4 {
+    color: rgb(241, 241, 241);
     text-align: center;
     font-family: "Roboto";
     line-height: 40px;
@@ -1386,113 +1399,109 @@ body{
     padding: 10px;
 }
 
-.footer-abt-us h4,.footer-site-links h4,.footer-get-involved h4,.footer-our-projects h4{
-    color:rgb(241, 241, 241);
+.footer-abt-us h4,
+.footer-site-links h4,
+.footer-get-involved h4,
+.footer-our-projects h4 {
+    color: rgb(241, 241, 241);
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    padding-bottom: 0px ;
+    padding-bottom: 0px;
 }
 
-
-
-
-
-.footer-content{
-    display:flex;
+.footer-content {
+    display: flex;
     flex-direction: row;
-    column-gap:3%;
+    column-gap: 3%;
     padding: 0 5%;
-
 }
-.footer-abt-us,.footer-site-links,.footer-get-involved,.footer-our-projects{
+
+.footer-abt-us,
+.footer-site-links,
+.footer-get-involved,
+.footer-our-projects {
     text-align: left;
 }
 
-.footer-content *{
-    
+.footer-content * {
     font-family: 'Roboto';
-    font-size:15px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-} 
+}
 
-.footer-our-projects{
+.footer-our-projects {
     flex: 1.2;
 }
 
-.footer-content > *{
+.footer-content>* {
     flex: 1;
 }
 
-.footer-content ul{
-    padding:0;
+.footer-content ul {
+    padding: 0;
 }
 
-.footer-content li  {
+.footer-content li {
     list-style: none;
 }
-.footer-content li a{
+
+.footer-content li a {
     text-decoration: none;
 }
-.footer-content a:hover
-{
-  color:#00A7F6;
- 
+
+.footer-content a:hover {
+    color: #00A7F6;
 }
 
-.footer-sm-logo{
-    font-size:9px;
+.footer-sm-logo {
+    font-size: 9px;
 }
 
-.footer-sm-logo a:hover{
+.footer-sm-logo a:hover {
     opacity: 0.8;
 }
 
-.footer-social-media-icons{
-    display:flex;
+.footer-social-media-icons {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap:3%;
-    position:relative;
-    bottom:30px;
+    column-gap: 3%;
+    position: relative;
+    bottom: 30px;
     margin: 1%;
-   
 }
- 
-.fa-brands{
-    color:white;
-    text-decoration: none;
-      
-} 
 
-#registered-with h6{
-    color:rgb(241, 241, 241);
+.fa-brands {
+    color: white;
+    text-decoration: none;
+}
+
+#registered-with h6 {
+    color: rgb(241, 241, 241);
     text-align: center;
     font-family: "Roboto";
     line-height: 10px;
-    font-size:15px;
-
+    font-size: 15px;
 }
-
-
-   
-
 
 
 /*
 
 /*our success stories*/
-.main_heading{
-text-align: center;
-margin-top: 3rem;
-margin-bottom: 4rem;}
+
+.main_heading {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
 
 .qr-code {
     display: flex;
