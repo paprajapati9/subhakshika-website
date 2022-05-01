@@ -473,17 +473,18 @@ nav ul li a {
 /* -------------------------------------------- */
 
 .about img {
-    height: 45vh;
+    height: 100%;
     width: 75vw;
     padding: 20px;
     padding-left: 0px;
-    border-radius: 0px 35px 35px 0px;
+    border-radius: 0px 35px 35px 0px
 }
 
 .about {
     display: flex;
     background-color: #f5f7fa;
     margin-bottom: 5%;
+    align-items: center;
 }
 
 span {
@@ -505,44 +506,21 @@ span {
     margin: 10px;
     font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-wrap: inherit;
-    height: 50px;
 }
 
 p {
-    /* height: 12px; */
     display: block;
     float: none;
 }
 
 #origin {
     background-color: #ffffff;
-    float: left;
-    text-align: left;
-}
-
-#origin button{
-    width: 40% !important;
 }
 
 #origin img {
-    width: 75vw;
-    height: 45vh;
-    padding: 0px 20px 20px 10px;
     padding-right: 0px;
-    padding-bottom: 0px;
-    border-radius: 25px 0px 0px 25px;
-    float: right;
-    box-shadow: 10px 5px 5px #737373;
-}
-
-#vision {
-    float: right;
-    text-align: left;
-}
-
-#vision img {
-    width: 45vw;
-    height: 45vh;
+    padding-left: 20px;
+    border-radius: 35px 0px 0px 35px;
 }
 
 #we button,
@@ -553,13 +531,12 @@ p {
     font-weight: 600;
     color: #737373;
     display: block;
-    width: 20%;
-    height: 5%;
+    width: unset;
     border: 2.5px solid #737373;
     border-radius: 6px;
     text-align: center;
-    margin: 19% 4% 1% 0;
-    padding: 5px;
+    margin-top: 28px;
+    padding: 5px 15px;
 }
 
 #vision button {
@@ -901,21 +878,22 @@ body {
 }
 
 .main_id {
-    width: 40%;
+    width: 45%;
 }
 
 .image {
     border-radius: 10px 0 0 10px;
-    width: 12em;
-    height: 12em;
+    width: 17em;
+    height: 14em;
     border-radius: 5px 0px 0px 5px;
+    object-fit: cover;
 }
 
 .main_block_content {
     background-color: #F7F7F7;
     overflow: hidden;
-    width: 80%;
-    height: 12em;
+    width: 70%;
+    height: 14em;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1361,9 +1339,10 @@ body {
 .our-projects__modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
+    position: relative;
 }
 
 /* The Close Button */
@@ -1372,6 +1351,9 @@ body {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 
 .our-projects__close:hover,
@@ -1483,13 +1465,10 @@ body{
 
 .footer-sm-logo{
     font-size:9px;
-   
 }
 
-.footer-sm-logo  a:hover{
-background-color:transparent;
-opacity:0.3%;
-
+.footer-sm-logo a:hover{
+    opacity: 0.8;
 }
 
 .footer-social-media-icons{
@@ -1547,5 +1526,20 @@ margin-bottom: 4rem;}
     .qr-code img {
         width: 100%;
         height: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    /* Modal Content */
+    .our-projects__modal-content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* Modal Content */
+    .our-projects__modal-content {
+        width: 90%;
+        padding: 20px;
     }
 }
