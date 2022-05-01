@@ -1347,6 +1347,123 @@ body {
     cursor: pointer;
 }
 
+/********************** Contact Us Section *************************/
+
+/* Style the container/contact section */
+.contactUs-container {
+    padding: 10px 90px 10px;
+}
+
+.contactUs-heading h1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-align: left;
+}
+
+.contactUs-info h2{
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: 500;
+    font-align: left;
+}
+
+.contactUs-info p{
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-align: left;
+}
+
+.contactUs-links{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    padding-top: 24px;
+}
+
+.contactUs-links a{
+    decoration: none;
+    color: #111;
+}
+
+.contactUs-links a i{
+    color: #00a7f6;
+}
+
+.contactUs-links a:hover{
+    decoration: none;
+    color: #00a7f6;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+input[type=email] {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+input[type=tel] {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: #00A7F6;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        inset 0px 4px 4px rgba(177, 199, 225, 0.25);
+}
+
+button[type=submit]:hover {
+    background-color: #3E8BFF;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+float: left;
+width: 50%;
+padding-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
 
 /*footer*/
 body{
