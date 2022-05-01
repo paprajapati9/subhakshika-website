@@ -319,6 +319,15 @@ nav ul li a {
     background-position: center;
 }
 
+.hero .carousel-inner img {
+    object-fit: cover;
+}
+
+.hero .carousel-inner .w-100,
+.hero .overlay {
+    height: 45em;
+}
+
 .content {
     position: relative;
 }
@@ -348,7 +357,7 @@ nav ul li a {
 
 .logo-head {
     letter-spacing: 0.05em;
-    font-size: 3rem;
+    font-size: 4.2rem;
     margin-bottom: 0.01em;
 }
 
@@ -466,9 +475,8 @@ nav ul li a {
 .about img {
     height: 45vh;
     width: 75vw;
-    padding: 5px 20px 20px 10px;
+    padding: 20px;
     padding-left: 0px;
-    padding-bottom: 0px;
     border-radius: 0px 35px 35px 0px;
 }
 
