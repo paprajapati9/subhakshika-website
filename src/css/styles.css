@@ -1326,8 +1326,47 @@ body {
 
 /* Our projects Swiper */
 .swiper {
-    width: 900px;
     height: 600px;
+    margin-block: 4em;
+}
+.swiper-1{
+    width: 900px;
+}
+.swiper-2{
+    width: 600px;
+    display: none;
+}
+.swiper-3{
+    display: none;
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-1{
+        display: none;
+    }
+    .swiper-3{
+        display: none;
+    }
+    .swiper-2{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .swiper-1{
+        display: none;
+    }
+    .swiper-2{
+        display: none;
+    }
+    .swiper-3{
+        display: flex;
+    }
+}
+
+.swiper-wrapper{
+    height : 80%;
 }
 
 .swiper-button-next,
@@ -1335,7 +1374,7 @@ body {
     visibility: hidden;
 }
 .swiper-pagination {
-    margin-top: 50px;
+    bottom: 50px !important;
 }
 
 /* Our projects modal */

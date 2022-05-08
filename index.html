@@ -378,14 +378,14 @@
 
 
     <!-- Our Projects  -->
-    
     <section class="our-projects-section">
         <h1 class="our-projects__heading">Our Projects</h1>
-        <div class="swiper">
+
+        <!-- PC/laptop Swiper -->
+        <div class="swiper swiper-1">
             <div class="swiper-wrapper">
-                <div class="our-projects__container swiper-slide">
                     <!-- Card 1 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/education.jpg" alt="" />
                         </div>
@@ -407,7 +407,7 @@
                         />
                     </div>
                     <!-- Card 2 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/vocational2.jpg" alt="" />
                         </div>
@@ -428,7 +428,7 @@
                         />
                     </div>
                     <!-- Card 3 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/project3.png" alt="" />
                         </div>
@@ -446,10 +446,8 @@
                             alt=""
                         />
                     </div>
-                </div>
-                <div class="our-projects__container swiper-slide">
                     <!-- Card 2 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/vocational2.jpg" alt="" />
                         </div>
@@ -470,7 +468,7 @@
                         />
                     </div>
                     <!-- Card 3 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/project3.png" alt="" />
                         </div>
@@ -489,7 +487,7 @@
                         />
                     </div>
                     <!-- Card 4 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/girl-education.jpg" alt="" />
                         </div>
@@ -508,10 +506,8 @@
                             alt=""
                         />
                     </div>
-                </div>
-                <div class="our-projects__container swiper-slide">
                     <!-- Card 3 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/project3.png" alt="" />
                         </div>
@@ -530,7 +526,7 @@
                         />
                     </div>
                     <!-- Card 4 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/girl-education.jpg" alt="" />
                         </div>
@@ -550,7 +546,7 @@
                         />
                     </div>
                     <!-- Card 5 -->
-                    <div class="our-projects__card">
+                    <div class="our-projects__card swiper-slide">
                         <div class="card-image-container">
                             <img src="src/img/de-addiction.jpg" alt="" />
                         </div>
@@ -569,12 +565,295 @@
                             alt=""
                         />
                     </div>
-                </div>
+                
             </div>
             <div class="swiper-pagination"></div>
             <!-- <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div> -->
         </div>
+
+        <!-- Tablet Swiper -->
+        <div class="swiper swiper-2">
+            <div class="swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/education.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Education for all</h2>
+                            <p>
+                                We believe that education is the foundation
+                                for leading a happy and fulfilled life. With
+                                this objective in mind we have been
+                                imparting....
+                            </p>
+                        </div>
+                        <img
+                            id="our-projects__myBtn"
+                            onclick="ourProjectsHandler(1)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/vocational2.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Vocational Training</h2>
+                            <p>
+                                SES has been imparting vocational training
+                                to make the beneficiaries self-reliant. Some
+                                of the popular skills that have been taught
+                                ....
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(2)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/vocational2.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Vocational Training</h2>
+                            <p>
+                                SES has been imparting vocational training
+                                to make the beneficiaries self-reliant. Some
+                                of the popular skills that have been taught
+                                ....
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(2)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/project3.png" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Open Shelter Home for Street Children</h2>
+                            <p>
+                                Determined to make a difference in the lives
+                                of destitute children, we have set up an...
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(3)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/project3.png" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Open Shelter Home for Street Children</h2>
+                            <p>
+                                Determined to make a difference in the lives
+                                of destitute children, we have set up an...
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(3)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/girl-education.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Girl Child Project</h2>
+                            <p>
+                                Resonating with the national objective of
+                                'Beti padhao beti bachao' campaign, we
+                                started the Girl Child Project ...
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(4)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/girl-education.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Girl Child Project</h2>
+                            <p>
+                                Resonating with the national objective of
+                                'Beti padhao beti bachao' campaign, we
+                                started the Girl Child Project ...
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(4)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/de-addiction.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>De-addiction Programme</h2>
+                            <p>
+                                Observing that many of the boys in the Open
+                                Shelter Home were involved in substance
+                                abuse, we have initiated....
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(5)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+
+        <!-- Phone Swiper -->
+        <div class="swiper swiper-3">
+            <div class="swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/education.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Education for all</h2>
+                            <p>
+                                We believe that education is the foundation
+                                for leading a happy and fulfilled life. With
+                                this objective in mind we have been
+                                imparting....
+                            </p>
+                        </div>
+                        <img
+                            id="our-projects__myBtn"
+                            onclick="ourProjectsHandler(1)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/vocational2.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Vocational Training</h2>
+                            <p>
+                                SES has been imparting vocational training
+                                to make the beneficiaries self-reliant. Some
+                                of the popular skills that have been taught
+                                ....
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(2)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/project3.png" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Open Shelter Home for Street Children</h2>
+                            <p>
+                                Determined to make a difference in the lives
+                                of destitute children, we have set up an...
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(3)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/girl-education.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Girl Child Project</h2>
+                            <p>
+                                Resonating with the national objective of
+                                'Beti padhao beti bachao' campaign, we
+                                started the Girl Child Project ...
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(4)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="our-projects__card swiper-slide">
+                        <div class="card-image-container">
+                            <img src="src/img/de-addiction.jpg" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <h2>De-addiction Programme</h2>
+                            <p>
+                                Observing that many of the boys in the Open
+                                Shelter Home were involved in substance
+                                abuse, we have initiated....
+                            </p>
+                        </div>
+                        <img
+                            onclick="ourProjectsHandler(5)"
+                            class="card__arrow-right"
+                            src="src/img/arrow-right.svg"
+                            alt=""
+                        />
+                    </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+
     </section>
 
     <div class="site-footer">
