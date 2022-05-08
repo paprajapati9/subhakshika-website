@@ -42,13 +42,14 @@
                 <img class="logo" src="assets/images/logo.png" alt="" /></div>
             <ul>
                 <li class="submenu-link">
-                    <a class="nav-link submenu-nav" href="#">About Us
+                    <div class="nav-link submenu-nav">
+                        <a href="#we">About Us</a>
                         <img
                             src="assets/images/down-arrow.png"
                             alt="arrow-down"
                             class="arrow-down"
                         />
-                    </a>
+                    </div>
                     <div class="submenu">
                         <ul class="submenu-list">
                             <li><a href="#we">About us</a></li>
@@ -58,13 +59,14 @@
                     </div>
                 </li>
                 <li class="submenu-link">
-                    <a class="nav-link submenu-nav" href="#">Our Projects
+                    <div class="nav-link submenu-nav">
+                        <a href="#our-projects">Our Projects</a>
                         <img
                             src="assets/images/down-arrow.png"
                             alt="arrow-down"
                             class="arrow-down"
                         />
-                    </a>
+                    </div>
                     <div class="submenu">
                         <ul class="submenu-list">
                             <li><a href="#Girl Child">Girl Child Project</a></li>
@@ -73,7 +75,9 @@
                         </ul>
                     </div>
                 </li>
-                <li><a class="nav-link" href="#">Sponsors </a></li>
+                <li>
+                    <a class="nav-link" href="#sponsors">Sponsors </a>
+                </li>
                 <li>
                     <a class="nav-link" href="#">Contact Us </a>
                 </li>
@@ -118,96 +122,6 @@
                 </div>
     </header>
 
-    <!-- About info -->
-
-    <!--<div class="about-wrapper">
-                <div class="about-dark-wrapper">
-                    <div class="dark-band"></div>
-                    <div class="about-child about-1">
-                        <img
-                            class="about-img"
-                            src="src/img/GirlChildProject2.jpeg"
-                            alt=""
-                        />
-                        <div class="about-content">
-                            <div>
-                                <h1>Who Are We?</h1>
-                                <p>
-                                    The NGO has been working for education,
-                                    rehabilitation and uplift of the
-                                    underpriviledged sections of the NGO by
-                                    providing opportunities for education, by
-                                    imparting employment oriented vocational
-                                    skills and distributing articles of basic
-                                    needs to the needy
-                                </p>
-                            </div>
-                            <button>
-                                Read More
-                                <img src="src/img/chevron-right_blue.svg" alt="" />
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="about-child about-2">
-                        <img
-                            class="about-img"
-                            src="src/img/GirlChildProject3.jpeg"
-                            alt=""
-                        />
-                        <div class="about-content">
-                            <div>
-                                <h1>Our Origin</h1>
-                                <p>
-                                    Shubhkakshika Educational Society was formed
-                                    and registered in June 1993 under Society
-                                    Act of 1860 by professors of Delhi
-                                    University, school teachers, professionals
-                                    and others committed to social causes
-                                </p>
-                            </div>
-                            <button>
-                                Our Team
-                                <img src="src/img/chevron-right.svg" alt="" />
-                            </button>
-                        </div>
-
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                    
-                </div>
-                <div class="overlay">
-                    
-                    <div class="content">
-                        <h1 class="logo-head">Shubhakshika</h1>
-                        <h2>
-                            Building the <br />
-                            dreams
-                        </h2>
-                        <div class="btn-box">
-                            <a class="btn-donate">Donate Now!</a>
-                            <a class="btn-volunteer">Volunteer!</a>
-                        </div>
-                    </div>
-    
-                </div>
-
-                
-               
-            </div>
-        </header>
-
-            </div 
-        </div> -->
     <!--Our stories section starts-->
     <div class="main_heading">
         <h1 class="heading">Our Success Stories</h1>
@@ -268,76 +182,96 @@
         </div>
         <div class="lower_container">
             <h4>Sponsor A Child</h4>
-            <p class="Content_">Even the all-powerful Pointing has no control about the blind texts</p>
-            <button class="btn btn-outline-secondary buttons_lower" onclick="document.location.href='donate.html'">Donate!</button>
+            <p class="Content_">Let's change tomorrow by sponsoring a child today</p>
+            <button class="btn btn-outline-secondary buttons_lower" onclick="window.open('donate.html')">Donate!</button>
         </div>
         <div class="lower_container">
             <h4>Volunteer!</h4>
-            <p class="Content_">Even the all-powerful Pointing has no control about the blind texts</p>
-            <button class="btn btn-outline-secondary buttons_lower" onclick="location.href='https://forms.gle/pztLCoWqPJTezDYv9';">Volunteer!</button>
+            <p class="Content_">Let's bring the change together</p>
+            <button class="btn btn-outline-secondary buttons_lower" onclick="window.open('https://forms.gle/pztLCoWqPJTezDYv9');">Volunteer!</button>
         </div>
     </div>
     <!--Our stories section ends-->
-    <section>
+    <div>
         <div class="about" id="we">
             <img src="https://media.istockphoto.com/photos/group-of-nepalese-school-children-in-village-near-annapurna-range-picture-id653536644?k=20&m=653536644&s=612x612&w=0&h=_AQYXI-M-Mssnhr9XbBGCUSgk8Hbn3FhFm868OHdswE=">
-            <p class="text"><span>Who are We?</span> <br> <br> The NGO has been working for education, rehabilitation and uplift of the underprivileged sections of the NGO by providing opportunities for education, by imparting employment oriented vocational skills and
-                distributing articles of basic needs to the needy.
-            </p>
-            <button>Read More</button>
+            <div class="text">
+                <span>Who are We?</span> 
+                <br> <br>Shubhakshika Educational Society is an NGO working relentlessly to mitigate the sufferings of the underprivileged and deprived sections of society, and plant the seeds of hope in their lives.
+                <button>Read More</button>
+            </div>
         </div>
 
         <div class="about" id="origin">
-            <p class="text"><span>Our Origin</span> <br> <br> Shubhkakshika Educational Society was formes and registered in June 1993 under Society Act 1860 by professors of Delhi University, school teachers, Professionals and others committed to social causes.
-            </p>
-            <button>Our Team</button>
+            <div class="text">
+                <span>Our Origin</span> 
+                <br> <br> The NGO was established in June 1993 under Society Act of 1860 by academicians (including some professors from constituent colleges of Delhi University, school teachers), professionals and others committed to social causes and since then has been working for the upliftment of the underprivileged and marginalized sections of society through education and rehabilitation.
+                <button>Our Team</button>
+            </div>
             <img src="https://media.istockphoto.com/photos/school-girl-in-uniform-of-indian-ethnicity-sitting-in-their-village-picture-id896366108?k=20&m=896366108&s=612x612&w=0&h=KvXCXG4xRoSvHqUNIr2E3DeYMB0kyIOPm8AsDUwiXT8=" alt="">
         </div>
 
         <div class="about" id="vision">
             <img src="https://media.istockphoto.com/photos/father-helping-school-children-to-study-picture-id651700878?k=20&m=651700878&s=612x612&w=0&h=YJhzLQsCfu_wBFltU9UzMwMSI5bUq9jAPbHbZiz4l_c=" alt="">
-            <p class="text">
-                <span>Vision and Mission</span><br> <br> Upliftment and Elevation of underprivileged and deprived section of society,<br> To contribute towards educated and empowered India,<br> To rehabilitate the marginalised sections socially and economically,<br>                Love and care for Every child.
-            </p>
-            <button>Read More</button>
+            <div class="text">
+                <span>Vision and Mission</span>
+                <br> <br> We aim for the Integrated and holistic development of the underprivileged sections of society and to empower and integrate the marginalized sections into the mainstream of society through :
+                <br>
+                <ul>
+                    <li>
+                        Education
+                    </li>
+                    <li>
+                        Skill training
+                    </li>
+                    <li>
+                        Social, economic and emotional rehabilitation of women and children
+                    </li>
+                    <li>
+                        Healthcare for the needy
+                    </li>
+                </ul>
+                <button>Read More</button>
+            </div>
         </div>
-    </section>
+    </div>
+
     <!--OUR SPONSORS-->
-    <section class="sponsors-section">
+    <section class="sponsors-section" id="sponsors">
         <h1 class="sponsor-heading"><strong>Our Sponsors</strong></h1>
 
         <div class="sponsor-logo-div">
             <div class="sponsor-logo-row1">
                 <div class="logo-col1">
-                    <a href="#">
+                    <a href="https://www.insecticidesindia.com/">
                         <img src="assets/images/insect-removebg-preview.png" alt="img1">
                     </a>
                 </div>
                 <div class="logo-col2">
-                    <a href="#">
+                    <a href="http://www.groupindogulf.com/">
                         <img src="assets/images/gulf-removebg-preview.png" alt="img2">
                     </a>
                 </div>
                 <div class="logo-col3">
-                    <a href="#">
+                    <a href="https://www.synopsys.com/">
                         <img src="assets/images/snps-logo-linkedin.jpg.imgo-removebg-preview.png" alt="img3">
                     </a>
                 </div>
             </div>
             <div class="sponsor-logo-row2">
                 <div class="logo-col4">
-                    <a href="#">
+                    <a href="https://www.metaflexdoors.in/">
                         <img src="assets/images/sponsor1-removebg-preview.png" alt="img4">
                     </a>
                 </div>
                 <div class="logo-col5">
-                    <a href="#">
+                    <a href="https://saicomcodes.com/">
                         <img src="assets/images/sponsor2-removebg-preview.png" alt="img5">
                     </a>
 
                 </div>
                 <div class="logo-col6">
-                    <a href="#">
+                    <a href="http://www.zenmobile.in/">
                         <img src="assets/images/sponsor3-removebg-preview.png" alt="img6">
                     </a>
                 </div>
@@ -378,7 +312,8 @@
 
 
     <!-- Our Projects  -->
-    <section class="our-projects-section">
+    
+    <section class="our-projects-section" id="our-projects">
         <h1 class="our-projects__heading">Our Projects</h1>
 
         <!-- PC/laptop Swiper -->
@@ -392,10 +327,7 @@
                         <div class="card-content">
                             <h2>Education for all</h2>
                             <p>
-                                We believe that education is the foundation
-                                for leading a happy and fulfilled life. With
-                                this objective in mind we have been
-                                imparting....
+                                With the objective of imparting value-creating education to needy children since 2001, we have provided basic education to more than 15,000 children......
                             </p>
                         </div>
                         <img
@@ -414,10 +346,7 @@
                         <div class="card-content">
                             <h2>Vocational Training</h2>
                             <p>
-                                SES has been imparting vocational training
-                                to make the beneficiaries self-reliant. Some
-                                of the popular skills that have been taught
-                                ....
+                                We have been imparting vocational training to make the beneficiaries self-reliant. Some of the popular skills....
                             </p>
                         </div>
                         <img
@@ -435,8 +364,7 @@
                         <div class="card-content">
                             <h2>Open Shelter Home for Street Children</h2>
                             <p>
-                                Determined to make a difference in the lives
-                                of destitute children, we have set up an...
+                                We have set up an Open Shelter Home to provide them care, protection, and a healthy and happy....
                             </p>
                         </div>
                         <img
@@ -454,10 +382,7 @@
                         <div class="card-content">
                             <h2>Vocational Training</h2>
                             <p>
-                                SES has been imparting vocational training
-                                to make the beneficiaries self-reliant. Some
-                                of the popular skills that have been taught
-                                ....
+                               We have been imparting vocational training to make the beneficiaries self-reliant. Some of the popular skills....
                             </p>
                         </div>
                         <img
@@ -475,8 +400,7 @@
                         <div class="card-content">
                             <h2>Open Shelter Home for Street Children</h2>
                             <p>
-                                Determined to make a difference in the lives
-                                of destitute children, we have set up an...
+                                We have set up an Open Shelter Home to provide them care, protection, and a healthy and happy....
                             </p>
                         </div>
                         <img
@@ -494,9 +418,7 @@
                         <div class="card-content">
                             <h2>Girl Child Project</h2>
                             <p>
-                                Resonating with the national objective of
-                                'Beti padhao beti bachao' campaign, we
-                                started the Girl Child Project ...
+                               Resonating with the national objective of 'Beti Padhao Beti Bachao' campaign, we started the Girl Child Project in 2016. The programme.....
                             </p>
                         </div>
                         <img
@@ -514,8 +436,7 @@
                         <div class="card-content">
                             <h2>Open Shelter Home for Street Children</h2>
                             <p>
-                                Determined to make a difference in the lives
-                                of destitute children, we have set up an...
+                                We have set up an Open Shelter Home to provide them care, protection, and a healthy and happy....
                             </p>
                         </div>
                         <img
@@ -533,9 +454,7 @@
                         <div class="card-content">
                             <h2>Girl Child Project</h2>
                             <p>
-                                Resonating with the national objective of
-                                'Beti padhao beti bachao' campaign, we
-                                started the Girl Child Project ...
+                                Resonating with the national objective of 'Beti Padhao Beti Bachao' campaign, we started the Girl Child Project in 2016. The programme....
                             </p>
                         </div>
                         <img
@@ -836,9 +755,7 @@
                         <div class="card-content">
                             <h2>De-addiction Programme</h2>
                             <p>
-                                Observing that many of the boys in the Open
-                                Shelter Home were involved in substance
-                                abuse, we have initiated....
+                               Observing that many of the boys in the Open Shelter Home were involved in substance abuse, we have initiated a project to wean children off.... 
                             </p>
                         </div>
                         <img
@@ -856,80 +773,89 @@
 
     </section>
 
-    <div class="site-footer">
-        <div class="footer-head">
-            <h2>Shubhakshika Education Society</h6>
-        </div>
-        <div class="footer-content">
-            <div class="footer-abt-us">
-                <h4>About Us</h4>
-                <p>Far far away, behind the word mountains ,far from the countries Vokalia and Consonantia , there live the blind texts.</p>
+    
+
+            <div class="site-footer">
+                <div class="footer-head">
+                    <h2>Shubhakshika Educational Society</h6>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-abt-us">
+                        <h4>About Us</h4>
+                        <p>We make a difference for him, her and them because to us everyone matters.</p>
+                    </div>
+        
+                    <div class="footer-site-links">
+                        <h4>Site Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#we">About Us</a></li>
+                            <li><a href="#our-projects">Our Projects</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            
+                        </ul>
+                    </div>
+        
+                    <div class="footer-get-involved">
+                        <h4>Get Involved!</h4>
+                        <ul>
+                            <li><a href="https://forms.gle/pztLCoWqPJTezDYv9" target="_blank">Volunteer</a></li>
+                            <li><a href="donate.html" target="_blank">Donate</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-our-projects">
+                        <h4>Our Projects</h4>
+                        <ul>
+                            <li><a href="#">Open Shelter Home for Boys</a></li>
+                            <li><a href="#">Girl Child Project</a></li>
+                            <li><a href="#">Vocational Training</a></li>
+                            <li><a href="#">Drugs Prevention and <br>De-Addiction</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <div id='footer-social-media-heading'>
+                    <h4>Follow Us on Social Media!</h4>
+                </div>
+               
+                <div class="footer-social-media-icons">
+                    <!--instagram-->
+                    <div class="footer-sm-logo " >
+                        <a href="https://www.instagram.com/shubhakshika_ngo/" target="_blank">
+                         <i class="fa-brands fa-instagram fa-3x"></i>
+                      </a>
+                    </div>
+                    <!--facebook-->
+                    <div class="footer-sm-logo ">
+                        <a href="https://www.facebook.com/shubhakshika.ngo?_rdr" target="_blank">
+                            <i class="fa-brands fa-facebook fa-3x"></i>
+                            
+                        </a>
+                    </div>
+                    <!--linkedin-->
+                    <div class="footer-sm-logo">
+                        <a href="https://in.linkedin.com/company/shubhakshika-educational-society?trk=companies_directory" target="_blank" >
+                            <i class="fa-brands fa-linkedin fa-3x"></i>
+                        </a>
+                           
+                    
+                    </div>
+                    <!--twitter-->
+                    <div class="footer-sm-logo">
+                        <a href="https://twitter.com/shubhakshika?lang=en" target="_blank" >
+                            <i class="fa-brands fa-twitter-square fa-3x"></i>
+                            
+                        </a>
+                    </div>
+                
+                </div>
+                <div id="registered-with">
+                    <h6>Registered with Govt. Of India</h6>
+                    <h6>Registration Id: DL/2018/081211</h6>
+                </div>
             </div>
-
-            <div class="footer-site-links">
-                <h4>Site Links</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Projects</a></li>
-                    <li><a href="#">Contact Us</a></li>
-
-                </ul>
-            </div>
-
-            <div class="footer-get-involved">
-                <h4>Get Involved!</h4>
-                <ul>
-                    <li><a href="https://forms.gle/pztLCoWqPJTezDYv9" target="_blank">Volunteer</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-our-projects">
-                <h4>Our Projects</h4>
-                <ul>
-                    <li><a href="#">Open Shelter Home for Boys</a></li>
-                    <li><a href="#">Girl Child Project</a></li>
-                    <li><a href="#">Vocational Training</a></li>
-                    <li><a href="#">Drugs Prevention and <br>De-Addiction</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div id='footer-social-media-heading'>
-            <h4>Follow Us on Social Media!</h4>
-        </div>
-        <div class="footer-social-media-icons">
-            <!--instagram-->
-            <div>
-                <a href="https://www.instagram.com/shubhakshika_ngo/" target="_blank">
-                    <i class="fa-brands fa-instagram fa-2x"></i>
-                </a>
-            </div>
-            <!--facebook-->
-            <div>
-                <a href="https://www.facebook.com/shubhakshika.ngo?_rdr" target="_blank">
-                    <i class="fa-brands fa-facebook fa-2x"></i>
-
-                </a>
-            </div>
-            <!--linkedin-->
-            <div>
-                <a href="https://in.linkedin.com/company/shubhakshika-educational-society?trk=companies_directory" target="_blank" class="fa fa-linkedin fa-2x">
-
-                </a>
-
-                </a>
-            </div>
-            <!--twitter-->
-            <div>
-                <a href="https://twitter.com/shubhakshika?lang=en" target="_blank" class="fa fa-twitter fa-2x">
-
-                </a>
-            </div>
-
-        </div>
-    </div>
+             </section>
 
     <!-- The Modal -->
     <div id="our-projects__myModal" class="our-projects__modal">
