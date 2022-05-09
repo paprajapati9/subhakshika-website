@@ -247,6 +247,11 @@ a:focus {
     object-fit: cover;
 }
 
+.about-us-image{
+    width: 100%;
+    height: 720px;
+}
+
 .hero .carousel-inner .w-100,
 .hero .overlay {
     height: 45em;
