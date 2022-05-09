@@ -1125,14 +1125,14 @@ body {
 }
 
 .sponsor-logo-div img {
-    width: 35vw;
+    width: 25vw;
     margin: 30px;
 }
 
 .sponsor-logo-row2 {
-    flex: 40%;
-    max-width: 40%;
-    flex-direction: column;
+    flex: 48%;
+    max-width: 96%;
+    flex-direction: row;
     padding: 0;
 }
 
@@ -1526,6 +1526,12 @@ body {
     }
 }
 
+@media screen and(max-width:730px) {
+    .lower_content_ {
+        margin-left: 6rem;
+    }
+}
+
 @media screen and (max-width:1124px) {
     .main_id {
         width: 57%;
@@ -1559,11 +1565,5 @@ body {
     .our-projects__modal-content {
         width: 90%;
         padding: 20px;
-    }
-}
-
-@media screen and(max-width:730px) {
-    .lower_content_ {
-        margin-left: 6rem;
     }
 }
