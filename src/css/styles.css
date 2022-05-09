@@ -82,11 +82,12 @@ ul {
     margin-bottom: 1rem;
 }
 
+/* 
 .navbar{
     position: fixed;
     width: 100%;
     z-index: 2;
-}
+} */
 .dropdown-menu{
     position:relative
 }
@@ -105,11 +106,6 @@ ul {
 .btn-box a.btn-donate:hover {
     background-color: #fff;
     color: var(--blue) !important;
-}
-
-.nav-button {
-    top: 7px;
-    position: relative;
 }
 
 
@@ -1613,6 +1609,14 @@ margin-bottom: 4rem;}
 }
 
 @media screen and (max-width:768px){
+    .btn-vol{
+        margin-top:12px;
+    }
+
+    .nav-button{
+        padding: 10px 14px;
+    }
+
     .hero{
         display: flex;
         flex-direction: column;
