@@ -1112,18 +1112,6 @@ body {
     transform: scale(1.1) rotate(0.001deg);
 }
 
-@media screen and (max-width: 768px) {
-    .sponsor-heading {
-        font-size: 8vw;
-    }
-    .sponsor-logo-row1 {
-        flex: 25%;
-        max-width: 45%;
-        flex-direction: column;
-        /* margin-right: 9%; */
-    }
-}
-
 .sponsor-logo-div img {
     width: 25vw;
     margin: 30px;
@@ -1565,5 +1553,22 @@ body {
     .our-projects__modal-content {
         width: 90%;
         padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sponsor-heading {
+        font-size: 8vw;
+    }
+    .sponsor-logo-row1 {
+        flex: 77%;
+        max-width: 112%;
+        flex-direction: row;
+    }
+    .sponsor-logo-div {
+        width: 56rem;
+    }
+    .about img {
+        width: 118%;
     }
 }
