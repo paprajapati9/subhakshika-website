@@ -1560,12 +1560,6 @@ body {
     }
 }
 
-@media screen and (max-width: 776px) {
-    .lower_content_ {
-        margin-left: 6em;
-    }
-}
-
 @media screen and (max-width: 640px) {
     /* Modal Content */
     .our-projects__modal-content {
