@@ -13,13 +13,6 @@ html {
 }
 
 @media only screen and (max-width:834px) {
-    nav {
-        font-size: 0.7rem;
-        padding: 0;
-    }
-    .nav-link {
-        padding: 0.5rem 0.5rem;
-    }
     .content h1 {
         font-size: 2rem;
     }
@@ -40,10 +33,6 @@ html {
     }
 }
 
-nav {
-    display: grid;
-    grid-template-columns: auto repeat(6, 1fr);
-}
 
 .carousel-indicators [data-bs-target] {
     height: 15px;
@@ -76,37 +65,15 @@ nav {
     rotate: 270;
 }
 
-nav {
-    max-height: var(--nav-height);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1em;
-}
-
 .logo {
     height: var(--nav-height);
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-}
-
-nav ul li {
-    list-style: none;
-}
 
 a {
     text-decoration: none;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
 
 dl,
 ol,
@@ -143,10 +110,6 @@ ul {
 * {
     margin: 0;
     padding: 0;
-}
-
-.nav-link:hover {
-    color: inherit !important;
 }
 
 .submenu-link a:hover,
@@ -239,13 +202,6 @@ a:focus {
     margin-top: 0.3em;
 }
 
-.nav-link {
-    display: flex;
-    color: black;
-    justify-content: center;
-    align-items: center;
-}
-
 .arrow-down {
     width: 15px;
     margin-left: 2px;
@@ -272,47 +228,15 @@ a:focus {
 
 /* Navbar */
 
-nav {
-    max-height: var(--nav-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.2em;
-}
-
 .logo {
     height: var(--nav-height);
 }
 
-nav ul {
-    display: flex;
-    gap: 0.9em;
-    padding-right: 1rem;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-
 /* Hero */
 
 .hero {
-    min-height: calc(71vh - var(--nav-height));
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 0em;
-    position: relative;
-    background-image: url(../img/hero.jpg);
-    background-repeat: no-repeat;
-    background-size: 104% 104%;
-    background-position: center;
 }
 
 .hero .carousel-inner img {
@@ -374,12 +298,6 @@ nav ul li a {
 
 .circle.current {
     background-color: var(--blue);
-}
-
-.nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .arrow-down {
@@ -615,13 +533,6 @@ body {
     height: 70px;
     margin-left: 30px;
     vertical-align: middle;
-}
-
-.navbuttons {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    margin-top: 20px;
 }
 
 .about_button {
@@ -1386,6 +1297,123 @@ body {
     cursor: pointer;
 }
 
+/********************** Contact Us Section *************************/
+
+/* Style the container/contact section */
+.contactUs-container {
+    padding: 10px 90px 10px;
+}
+
+.contactUs-heading h1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-align: left;
+}
+
+.contactUs-info h2{
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: 500;
+    font-align: left;
+}
+
+.contactUs-info p{
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-align: left;
+}
+
+.contactUs-links{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    padding-top: 24px;
+}
+
+.contactUs-links a{
+    decoration: none;
+    color: #111;
+}
+
+.contactUs-links a i{
+    color: #00a7f6;
+}
+
+.contactUs-links a:hover{
+    decoration: none;
+    color: #00a7f6;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+input[type=email] {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+input[type=tel] {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: #00A7F6;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        inset 0px 4px 4px rgba(177, 199, 225, 0.25);
+}
+
+button[type=submit]:hover {
+    background-color: #3E8BFF;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+float: left;
+width: 50%;
+padding-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
 
 /*footer*/
 body{
@@ -1564,5 +1592,81 @@ margin-bottom: 4rem;}
     .our-projects__modal-content {
         width: 90%;
         padding: 20px;
+    }
+}
+
+
+/******************************RESPONSIVE CSS*************************************/
+@media screen and (max-width:1024px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-donate{
+        font-size:16px;
+        padding: 10px 14px !important;
+    }
+
+    .btn-volunteer{
+        font-size:16px;
+        padding: 10px 14px !important;
+    }
+
+    .footer-head h2 {
+        font-size: 28px;
+    }
+
+    .footer-content *{
+        font-size:12.5px;
+    }
+
+    #footer-social-media-heading h4 {
+        font-size: 16px;
+    }
+
+    #registered-with h6{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:427px){
+    .btn-box{
+        display: flex;
+        flex-direction: column;
+        max-width: 30vw;
+    }
+
+    .btn-donate{
+        font-size:15px;
+    }
+
+    .btn-volunteer{
+        font-size:15px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        max-width: 245px;
+    }
+
+    .footer-head h2{
+        font-size: 28px;
+    }
+
+    #footer-social-media-heading h4 {
+        font-size: 16px;
+        padding-bottom: 14px;
+    }
+
+    #registered-with h6{
+        font-size: 12px;
     }
 }
