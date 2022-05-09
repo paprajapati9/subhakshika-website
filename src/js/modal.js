@@ -21,7 +21,7 @@ const ourProjectsHandler = id => {
         case 1:
             ourProjectsModalH2.textContent = "Education for all";
             ourProjectsModalP.textContent =
-               "With the objective of imparting value-creating education to needy children since 2001, we have provided basic education to more than 15,000 children with most of them inducted into formal education system after completing the bridge course. In 2006, we expanded the project to include orphans, beggars and other destitute children who were deprived of this opportunity. ";
+               "We believe that education is the foundation for leading a happy and fulfilled life. With this objective in mind we have been imparting value-creating education to needy children since 2001. We are happy to share that so far, we have provided basic education to more than 15,000 children with most of them inducted into formal education system after completing the bridge course. In 2006, we expanded the project to include orphans, beggars and other destitute children who were deprived of this opportunity. We also reached out to children in conflict with law in observations homes, and offered after-release back-up classes after their release or acquittal. We strive to tap the inherent potential of these children to bring about a positive change in their lives.";
             break;
 
         case 2:
@@ -33,17 +33,17 @@ const ourProjectsHandler = id => {
             ourProjectsModalH2.textContent =
                 "Open Shelter Home for Street Children";
             ourProjectsModalP.textContent =
-                "We have set up an Open Shelter Home to provide them care, protection, and a healthy and happy environment. These children include beggars, rag- pickers, small vendors, orphaned, deserted, run-away and others. Besides giving them food, clothing, medical care and basic education, we also counsel them to bring about behavioural changes.";
+                "Determined to make a difference in the lives of destitute children, we have set up an Open Shelter Home to provide them care, protection, and a healthy and happy environment. These children include beggars, rag- pickers, small vendors, orphaned, deserted, run-away and other vulnerable children. Besides giving them food, clothing, medical care and basic education, we also counsel them to bring about behavioural changes.";
             break;
         case 4:
             ourProjectsModalH2.textContent = "Girl Child Project";
             ourProjectsModalP.textContent =
-                "Resonating with the national objective of 'Beti Padhao Beti Bachao' campaign, we started the Girl Child Project in 2016. The programme aims at providing various opportunities to girls who have been treated as liabilities in their families and immediate surroundings. ";
+                "Resonating with the national objective of 'Beti padhao beti bachao' campaign, we started the Girl Child Project in 2016. The programme aims at providing opportunities for education and employment to girls who have been treated as liabilities in their families and immediate surroundings. It is a matter of pleasure to report that the number of enrolment is increasing every year.";
             break;
         case 5:
             ourProjectsModalH2.textContent = "De-addiction Programme";
             ourProjectsModalP.textContent =
-                "Observing that many of the boys in the Open Shelter Home were involved in substance abuse, we have initiated a project to wean children off this harmful habit. Many of these children give up addiction through love, care and activities that engage them at physical, mental and emotional levels.";
+                "Observing that many of the boys in the Open Shelter Home were involved in substance abuse, we have initiated a project to wean children off this harmful habit. It is encouraging to see that many of these children give up addiction through love, care and activities that engage them at physical, mental and emotional levels.";
             break;
         default:
             break;
