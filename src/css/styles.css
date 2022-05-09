@@ -82,6 +82,14 @@ ul {
     margin-bottom: 1rem;
 }
 
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.dropdown-menu{
+    position:relative
+}
 .nav-button,
 .btn-donate {
     background-color: var(--blue);
