@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-:root {
+ :root {
     --blue: rgb(0, 153, 255);
     --nav-height: 80px;
     --corner-radius: 5px;
@@ -1120,25 +1120,29 @@ body {
         flex: 25%;
         max-width: 45%;
         flex-direction: column;
-        margin-right: 5%;
+        /* margin-right: 9%; */
     }
-    .sponsor-logo-div img {
-        width: 35vw;
-        margin: 30px;
-    }
-    .sponsor-logo-row2 {
-        flex: 40%;
-        max-width: 40%;
-        flex-direction: column;
-        padding: 0;
-    }
-    .sponsor-logo-row2 img {
-        height: 40%;
-        padding-bottom: 8%;
-    }
-    .logo-col5 {
-        padding-bottom: 20%;
-    }
+}
+
+.sponsor-logo-div img {
+    width: 35vw;
+    margin: 30px;
+}
+
+.sponsor-logo-row2 {
+    flex: 40%;
+    max-width: 40%;
+    flex-direction: column;
+    padding: 0;
+}
+
+.sponsor-logo-row2 img {
+    height: 40%;
+    padding-bottom: 8%;
+}
+
+.logo-col5 {
+    padding-bottom: 20%;
 }
 
 .glimpses {
@@ -1522,6 +1526,27 @@ body {
     }
 }
 
+@media screen and (max-width:1124px) {
+    .main_id {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width:1018px) {
+    .about {
+        display: block;
+    }
+    .about img {
+        height: auto;
+        width: 100%;
+    }
+    #origin img {
+        padding-left: 0px;
+        padding-right: 20px;
+        border-radius: 0px 35px 35px 0px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     /* Modal Content */
     .our-projects__modal-content {
@@ -1534,5 +1559,11 @@ body {
     .our-projects__modal-content {
         width: 90%;
         padding: 20px;
+    }
+}
+
+@media screen and(max-width:730px) {
+    .lower_content_ {
+        margin-left: 6rem;
     }
 }
