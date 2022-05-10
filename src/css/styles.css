@@ -1702,97 +1702,48 @@ body{
 
 /*our success stories*/
 .main_heading{
-text-align: center;
-margin-top: 3rem;
-margin-bottom: 4rem;}
-
-.success-stories-block
-{
-    display:flex;
-    flex-direction: row;
-}
-
-.qr-code {
-    display: flex;
-}
-
-.qr-code img {
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: 40%;
-    height: 40%;
-}
-
-.lower_content_{
-    justify-content: space-around;
-}
-
-@media screen and (max-width: 1366px) {
-    .qr-code img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .success-stories-block
-    {
-        flex-direction: row;
-    }
-
-
-}
-
-@media screen and (max-width: 980px) {
-    /* Modal Content */
-    .our-projects__modal-content {
-        width: 70%;
-    }
-
-    .success-stories-block
-    {
-        flex-direction: column;
-    }
-
-    .success-img
-    {
-        border-radius: 5px 5px 0 0;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    /* Modal Content */
-    .our-projects__modal-content {
-        width: 90%;
-        padding: 20px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;}
+    
+    .qr-code {
+        display: flex;
     }
     
-    .lower_content_
-    {
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        column-gap: 50px;
+    .qr-code img {
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        width: 40%;
+        height: 40%;
     }
-
-    .lower_container{
-        width: 80%;
-        margin-bottom: 12vh;
+    
+    @media screen and (max-width: 1366px) {
+        .qr-code img {
+            width: 100%;
+            height: 100%;
+        }
     }
-
-    .lower_container .btn{
-        margin-top: 0;
+    
+    @media screen and (max-width: 980px) {
+        /* Modal Content */
+        .our-projects__modal-content {
+            width: 70%;
+        
+        }
     }
-
-    .Content_{
-        display: flex;
-        flex-direction: column;
+    
+    @media screen and (max-width: 640px) {
+        /* Modal Content */
+        .our-projects__modal-content {
+            width: 90%;
+            padding: 20px;
+        
+        }
+        .lower_container{
+            width:80%;
+        }
     }
-
-    p.Content_{
-        /* align-items: center; */
-    }
-}
-
 
 /******************************RESPONSIVE CSS*************************************/
 @media screen and (max-width:1024px){
