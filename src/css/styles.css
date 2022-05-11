@@ -1239,7 +1239,7 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
     .swiper-1{
         display: none;
     }
@@ -1639,7 +1639,7 @@ margin-bottom: 4rem;}
     }
 
     .lower_container{
-        width: 50%;
+        width: 80%;
         margin-bottom: 12vh;
     }
 
@@ -1655,6 +1655,22 @@ margin-bottom: 4rem;}
     p.Content_{
         /* align-items: center; */
     }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about img{
+        width: 80%;
+    }
+
+    .contactUs-container{
+        padding: 10px 20px;
+    }
+    .contactUs-container input{
+        width: 100%;
+    }
+
 }
 
 
