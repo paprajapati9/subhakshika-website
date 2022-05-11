@@ -830,6 +830,16 @@ body {
     border-radius: 5px;
     padding: 6px;
   }
+
+  .buttons_lower_:hover{
+    color: white;
+    background-color: black;
+    
+  }
+
+  .vol{
+    margin-top: 1.5rem;
+  }
   
   .lower_content_{
     margin-top: 3rem;
@@ -967,10 +977,52 @@ body {
         }
     }
     
+    .main_heading{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 4rem;}
+        
+        .qr-code {
+            display: flex;
+        }
+        
+        .qr-code img {
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            width: 40%;
+            height: 40%;
+        }
+        
+        @media screen and (max-width: 1366px) {
+            .qr-code img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 980px) {
+            /* Modal Content */
+            .our-projects__modal-content {
+                width: 70%;
+            
+            }
+        }
+        
+        @media screen and (max-width: 640px) {
+            /* Modal Content */
+            .our-projects__modal-content {
+                width: 90%;
+                padding: 20px;
+            
+            }
+            .lower_container{
+                width:80%;
+            }
+        }
+
 
 /*    */
-  
-   
 
 .boxes {
     position: relative;
@@ -1375,7 +1427,7 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
     .swiper-1{
         display: none;
     }
@@ -1702,48 +1754,113 @@ body{
 
 /*our success stories*/
 .main_heading{
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 4rem;}
-    
-    .qr-code {
-        display: flex;
-    }
-    
+text-align: center;
+margin-top: 3rem;
+margin-bottom: 4rem;}
+
+.success-stories-block
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.qr-code {
+    display: flex;
+}
+
+.qr-code img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: 40%;
+    height: 40%;
+}
+
+.lower_content_{
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1366px) {
     .qr-code img {
-        margin: auto;
-        max-width: 100%;
-        max-height: 100%;
-        width: 40%;
-        height: 40%;
+        width: 100%;
+        height: 100%;
     }
-    
-    @media screen and (max-width: 1366px) {
-        .qr-code img {
-            width: 100%;
-            height: 100%;
-        }
+
+    .success-stories-block
+    {
+        flex-direction: row;
     }
-    
-    @media screen and (max-width: 980px) {
-        /* Modal Content */
-        .our-projects__modal-content {
-            width: 70%;
-        
-        }
+
+
+}
+
+@media screen and (max-width: 980px) {
+    /* Modal Content */
+    .our-projects__modal-content {
+        width: 70%;
     }
-    
-    @media screen and (max-width: 640px) {
-        /* Modal Content */
-        .our-projects__modal-content {
-            width: 90%;
-            padding: 20px;
-        
-        }
-        .lower_container{
-            width:80%;
-        }
+
+    .success-stories-block
+    {
+        flex-direction: column;
     }
+
+    .success-img
+    {
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* Modal Content */
+    .our-projects__modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .lower_content_
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 50px;
+    }
+
+    .lower_container{
+        width: 80%;
+        margin-bottom: 12vh;
+    }
+
+    .lower_container .btn{
+        margin-top: 0;
+    }
+
+    .Content_{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p.Content_{
+        /* align-items: center; */
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about img{
+        width: 80%;
+    }
+
+    .contactUs-container{
+        padding: 10px 20px;
+    }
+    .contactUs-container input{
+        width: 100%;
+    }
+
+}
+
 
 /******************************RESPONSIVE CSS*************************************/
 @media screen and (max-width:1024px){
@@ -1825,5 +1942,112 @@ body{
 
     #registered-with h6{
         font-size: 12px;
+    }
+}
+
+/*   */
+
+
+
+  /*  */
+  .main_heading{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+  .lower_container_{
+    width: 28%;
+    height: 30%;
+  }
+  
+  .button_lower{
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  
+  .headings{
+    margin-bottom: 2rem;
+  }
+  
+  .inr{
+    margin-top: 2rem;
+  }
+  
+  .buttton_{
+  
+          -webkit-border-radius: 9;
+          -moz-border-radius: 9;
+          border-radius: 9px;
+          font-family: Arial;
+          color: #ffffff;
+          font-size: 20px;
+          background: #4d77ff;
+          padding: 10px 20px 10px 20px;
+          text-decoration: none;
+        }
+  
+  .buttton_:hover {
+          background:rgba(177, 199, 225, 0.25);
+          color: black;
+          text-decoration: none;
+        }
+  
+  
+  
+  
+  @media screen and (max-width: 1366px) {
+      .qr-code img {
+          width: 100%;
+          height: 100%;
+      }
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 640px) {
+  
+  
+      .lower_content_
+      {
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          column-gap: 50px;
+      }
+  
+      .lower_container_{
+          width: 50%;
+          margin-bottom: 6vh;
+      }
+  
+      .lower_container_ .btn{
+          margin-top: 0;
+      }
+  
+      .Content_{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .buttton_{
+  
+          -webkit-border-radius: 9;
+          -moz-border-radius: 9;
+          border-radius: 9px;
+          font-family: Arial;
+          color: #ffffff;
+          font-size: 20px;
+          background: #4d77ff;
+          padding: 10px 20px 10px 20px;
+          text-decoration: none;
+        }
+  
+        .buttton_:hover {
+          background:rgba(177, 199, 225, 0.25);
+          color: black;
+          text-decoration: none;
+        }
     }
 }
