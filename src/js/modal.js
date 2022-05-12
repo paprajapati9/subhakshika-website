@@ -45,6 +45,30 @@ const ourProjectsHandler = id => {
             ourProjectsModalP.textContent =
                 "Observing that many of the boys in the Open Shelter Home were involved in substance abuse, we have initiated a project to wean children off this harmful habit. It is encouraging to see that many of these children give up addiction through love, care and activities that engage them at physical, mental and emotional levels.";
             break;
+            case 'v1':
+                ourProjectsModalH2.textContent =
+                    "Story 1";
+                ourProjectsModalP.textContent =
+                    "This is a sample text 1";
+                break;
+            case 'v2':
+                ourProjectsModalH2.textContent =
+                    "Story 2";
+                ourProjectsModalP.textContent =
+                    "This is a sample text 2";
+                break;
+            case 'v3':
+                ourProjectsModalH2.textContent =
+                    "Story 3";
+                ourProjectsModalP.textContent =
+                    "This is a sample text 3";
+                break;
+            case 'v4':
+                ourProjectsModalH2.textContent =
+                    "Story 4";
+                ourProjectsModalP.textContent =
+                    "This is a sample text 4";
+                break;
         default:
             break;
     }
