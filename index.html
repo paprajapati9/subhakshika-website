@@ -73,6 +73,9 @@
                       <li><a class="dropdown-item" href="index.html#vision">Vision</a></li>
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#success-stories">Stories</a>
+                  </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="index.html#our-projects" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Our Projects
@@ -181,7 +184,7 @@
                             Building  <br /> dreams
                         </h2>
                         <div class="btn-box">
-                            <a class="btn-donate" href="index.html#donateUs" target="_blank">Donate Now!</a>
+                            <a class="btn-donate" href="index.html#donateUs">Donate Now!</a>
                             <a class="btn-volunteer" href="https://forms.gle/pztLCoWqPJTezDYv9" target="_blank">Volunteer!</a>
                         </div>
                     </div>
@@ -189,8 +192,23 @@
                 </div>
     </header>
 
+    <!--Message from founder-->
+    <div class="founder-msg-div">
+        <h1 class="hedaing">"Message from the Founder"</h1>
+        <div class="founder-img-div">
+            <img src="assets/images/Team/usha.jpeg" alt="founder-pic" class="founder-img">
+            <br><br>
+            <h4>Dr. Usha Bhatnagar</h4>
+        </div>
+        <div class="founder-msg">
+            <p>Nurturing is the essence of my being  so naturally all children and especially those in distress and suffering are very dear to my heart. 
+                So, Immediately after my retirement from Delhi University l started to do my bit to serve many young ones in need of care . I set up Shubhakshika Educational Society to academically and socially facilitate the marginalised children.
+                I am grateful to my team that supports me tirelessly in bringing smiles to the children who bloom and blossom in the NGO .</p>
+        </div>
+    </div>
+    
     <!--Our stories section starts-->
-    <div class="main_heading">
+    <div class="main_heading" id="success-stories">
         <h1 class="heading">Our Success Stories</h1>
       </div>
       <div class="owl-carousel owl-theme">
@@ -308,7 +326,7 @@
             <div class="text">
                 <span>Who are We?</span> 
                 <br> <br>Shubhakshika Educational Society is an NGO working relentlessly to mitigate the sufferings of the underprivileged and deprived sections of society, and plant the seeds of hope in their lives. Shubhakshika Educational Society is registered with Niti Ayog (Unique Id: DL/2018/081211). It has 12 A, 80G and Govt of India approval for CSR. Its Education Center (OBE 027003) is accredited with the National Institute of Open Schooling for certified Open Basic Education.
-                <button>Read More</button>
+                <!-- <button>Read More</button> -->
             </div>
         </div>
 
@@ -341,7 +359,7 @@
                         Healthcare for the needy
                     </li>
                 </ul>
-                <button>Read More</button>
+                <!-- <button>Read More</button> -->
             </div>
         </div>
     </div>
@@ -357,14 +375,14 @@
     <h5 class="inr">INR 5,000</h5>
         </div>
         <div class="lower_container_">
-          <h2 class="headings">Sponsor a Child's Education</h2>
-          <p class="Content_">We are what we eat !<br> Nutritional deficit accounts for mental, physical & emotional distress specially among the marginalised young ones. Shubhakshika aims at holistic growth of children, so we ensure daily supply of nutritionthrough fruit and milk.</p></p>
+          <h2 class="headings">Sponsor a Child</h2>
+          <p class="Content_">Sponsor a Child for an Year!<br> Support a child's overall development by contributing to his/her educational, medical and other basic needs.</p>
     <h5 class="inr">INR 10,000</h5>
         </div>
-        <div class="lower_container_">
+        <!-- <div class="lower_container_">
           <h2 class="headings">Donate As per Wish!</h2>
           <p class="Content_">We are what we eat !<br> Nutritional deficit accounts for mental, physical & emotional distress specially among the marginalised young ones. Shubhakshika aims at holistic growth of children, so we ensure daily supply of nutritionthrough fruit and milk.</p></p>
-        </div>
+        </div> -->
 
       </div>
       <div class="button_lower">
@@ -923,9 +941,13 @@
                <h2>Shubhakshika Education Society</h2>
                <p>
                 4/124, Block-J, Sector-16, Rohini<br>
-                Landmark - Near Sardar <br>
+                Landmark - Near Sardar
                 Colony Gurudwara<br>
                 New Delhi -110089</p>
+                <p>
+                    Basti Vikas Kendra, Gate No-2<br>
+                    Amarjyoti Colony, Shahbad Daulatpur<br>
+                    Bawana Road, New Delhi -110042</p>
            </div>
            <div class="contactUs-links">
                 <a class="contactUs-link" href="mailto:shubhakshika@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;shubhakshika@gmail.com</a>
@@ -939,7 +961,7 @@
               <input type="tel" id="contact" name="contact" placeholder="Mobile Number">
               <input type="email" id="email" name="email" placeholder="Email ID">
               <textarea id="query" name="query" placeholder="Enter your Query here..." style="height:120px; background-color: #F5F7FA;"></textarea>
-              <button type="submit">Send Message</button>
+              <button type="submit" onclick="window.open('mailto:shubhakshika@gmail.com')">Send Message</button>
             </form>
           </div>
         </div>
