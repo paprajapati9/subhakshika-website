@@ -14,10 +14,10 @@ html {
 
 @media only screen and (max-width:834px) {
     .content h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .content h2 {
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
     }
     .btn-box {
         font-size: 0.5rem;
@@ -857,6 +857,7 @@ body {
     width: 100%;
     margin-left: 1rem;
     margin-right: 1rem;
+    height: 200px;
   }
   
   .modal-content
@@ -882,9 +883,8 @@ body {
     border-radius: 50%;
     padding: 5.07px 3.72px 4.37px 5.43px;
     position: absolute;
-    top: 85%;
-    right: 6%;
-    bottom: 6%;
+    right: 0%;
+    bottom: 12%;
     cursor: pointer;
     height: 28.44px;
     max-width: 28.15px;
