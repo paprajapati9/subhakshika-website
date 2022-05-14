@@ -28,6 +28,9 @@ html {
     .hero {
         width: 101%;
     }
+    .founder-msg{
+        width: 75%;
+    }
     /* .overlay {
         min-width: 436px;
     } */
