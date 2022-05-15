@@ -845,6 +845,9 @@ body {
     margin-bottom: 1rem;
     border-radius: 5px;
     padding: 6px;
+    background-color: #fff;
+    width: 90px;
+    text-align: left;
   }
 
   .buttons_lower_:hover{
@@ -2036,7 +2039,7 @@ margin-bottom: 4rem;}
           font-family: Arial;
           color: #ffffff;
           font-size: 20px;
-          background: #4d77ff;
+          background: var(--blue);
           padding: 12px 20px 12px 20px;
           text-decoration: none;
           width: 165px;
