@@ -94,6 +94,10 @@ ul {
     z-index: 2;
 }
 
+.me-auto {
+    margin-right: 1% !important;
+}
+
 .dropdown-menu {
     position: relative
 }
@@ -1549,21 +1553,21 @@ body {
 .contactUs-heading h1 {
     font-family: "Montserrat";
     font-weight: 700;
-    font-align: left;
+    text-align: left;
 }
 
 .contactUs-info h2 {
     font-family: "Roboto";
     font-size: 2rem;
     font-weight: 500;
-    font-align: left;
+    text-align: left;
 }
 
 .contactUs-info p {
     font-family: "Roboto";
     font-size: 1.2rem;
     font-weight: 400;
-    font-align: left;
+    text-align: left;
 }
 
 .contactUs-links {
@@ -2076,4 +2080,11 @@ body {
 .our-projects__heading,
 .contactUs-heading>h1 {
     font-size: 4vw !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;
+        margin-right: 1% !important;
+    }
 }
