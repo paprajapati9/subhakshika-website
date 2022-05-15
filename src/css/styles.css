@@ -1298,12 +1298,12 @@ body {
     }
 }
 
-.glimpses {
+.section-heading {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-weight: 700;
     font-size: 4vw;
-    margin-bottom: 5%;
+    margin-bottom: 5%
 }
 
 .images-box {
@@ -1336,8 +1336,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .glimpses {
-        font-size: 6vw;
+    .section-heading {
+        font-size: 8vw;
     }
     .images-box {
         grid-template-columns: repeat(2, auto);
@@ -2106,7 +2106,7 @@ margin-bottom: 4rem;}
           text-decoration: none;
         }
     }
-    
+
 @media only screen and (min-width: 992px) {
 
     .navbar-expand-lg .navbar-collapse {
