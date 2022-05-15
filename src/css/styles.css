@@ -101,11 +101,6 @@ ul {
     margin-right: 1% !important; 
 }
 
-@media only screen and (min-width: 992px)
-.navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end !immportant;
-    margin-right: 1% !immportant;
-}
 
 .dropdown-menu{
     position:relative
@@ -2111,3 +2106,8 @@ margin-bottom: 4rem;}
           text-decoration: none;
         }
     }
+@media only screen and (min-width: 992px) !important
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !immportant;
+    margin-right: 1% !immportant;
+}
