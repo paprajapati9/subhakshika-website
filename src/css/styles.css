@@ -103,8 +103,8 @@ ul {
 
 @media (min-width: 992px)
 .navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-    margin-right: 1%;
+    justify-content: flex-end !immportant;
+    margin-right: 1% !immportant;
 }
 
 .dropdown-menu{
