@@ -2106,8 +2106,10 @@ margin-bottom: 4rem;}
           text-decoration: none;
         }
     }
-@media only screen and (min-width: 992px) !important
-.navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end !immportant;
-    margin-right: 1% !immportant;
+@media only screen and (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;
+        margin-right: 1% !important;
+    }
 }
