@@ -47,33 +47,33 @@ const ourProjectsHandler = id => {
             break;
             case 'v1':
                 ourProjectsModalH2.textContent =
-                    "Story 1";
+                    "ARUN";
                 ourProjectsModalP.textContent =
-                    "This is a sample text 1";
+                    "ARUN was born a beggar boy who could dream of nothing beyond earning money by begging and eating the leftover food given as alms. The NGO contacted him in 2017. ARN was a very pleasant boy  and wished to go to school like other boys. He was brought  to Shubhakshika centre. ARN soon proved that he was a very intelligent and receptive boy. Despite his adverse circumstances , he had big dreams. It took him no time to give up begging. His parents too, agreed not to send him for begging. He was admitted to class V in MCD school and was provided regular coaching at the NGO centre. He passed class V from MCD school and was shifted to State school. ARN is now in class VIII. He has been regularly receiving support from Shubhakshika. ARN wants to be an engineer . Shubhakshika stands by him to make his desire come true.";
                 break;
             case 'v2':
                 ourProjectsModalH2.textContent =
-                    "Story 2";
+                    "CHOTTU";
                 ourProjectsModalP.textContent =
-                    "This is a sample text 2";
+                    "Chottu was separated from his parents when he was a small boy. He stayed in Children Home for Boys , Alipur, Delhi for 8 years. He was considered a difficult boy who was rude and undisciplined. He was later transferred to Astha Kunj Rewari, Haryana, Home on 24-02-2015.  He was sent back to Delhi. Child Welfare Committee , Avantika, appreciating our sincere efforts for rehabilitation of wayward children , referred Chottu to Shubhakshika Open Shelter Home Initially Chottu was a belligerent boy who would break glasses or throw things at the slightest provocation by fellow children. The NGO staff made an earnest effort to find out the reason for the unsocial behaviour of the boy. After a few days, it was realised that  the boy was very lonely. He felt he had no one as his own and had no future. The NGO staff started a single point programme to make him feel an important member of Shubhakshika Parivar. He was involved in various activities. Chottu showed keen interest in cooking. He enjoyed cooking for other children in the Shelter Home. So, with the permission of CWC, he was apprenticed to a chat/ chole bhature shop where he was paid RS 2500p.m as stipend. The money was deposited in his Bank account. Chottu completed 18 years in May 2016. He had about 30,000 in his account. Chottu started working at restaurant in Badli,  earning for himself. His ambition is to start his own business. Shubhakshika wishes him the best.";
                 break;
             case 'v3':
                 ourProjectsModalH2.textContent =
-                    "Story 3";
+                    "DILKHUSH";
                 ourProjectsModalP.textContent =
-                    "This is a sample text 3";
+                    "Dilkhush is a 14-year-old boy who is a resident of Sahibabad, Daulat Pur in Delhi. He was found as a smoker and school dropout in 2018, who was then provided clothes, food, hygiene and is now completing his education in 10th standard. In 2018 he’s very much addicted of smoking cigarettes/bidi & consumption of tobacco.This is because of his father as he was also a chain smoker and a alcoholic, even he passed away because of that His mother was not able to pay attention on him, as she has to earn her daily bread and butter We helped him to quit all these things as we involved him in other activities like study and sports It will take a year but he quit smoking completely";
                 break;
             case 'v4':
                 ourProjectsModalH2.textContent =
-                    "Story 4";
+                    "RAUNAK";
                 ourProjectsModalP.textContent =
-                    "This is a sample text 4";
+                    "Raunak  an 8/9 year old boy was found begging at Badli station . The boy was smoking and eating tobacco. It took the NGO staff some time and lot of counselling to convince the parents to send the boy to the shelter home . Raunak was a quarrelsome boy and fought with other boys over small matters. The staff soon, found out  that the child liked to dance and enjoyed playing cricket. This was the take off point for his reformation. The NGO held dance sessions with other children of his age . He learnt to share space with others .Cricket coaching was for him a lesson in working with the team. Raunak gave up smoking and spent his time in creative activities. Gradually , he was weaned off from begging too. Raunak is now going to an MCD school studying in class V. he is provided back-up teaching by the NGO.";
                 break;
         default:
             break;
     }
 
-    console.log(id);
+    
 };
 
 // When the user clicks on <span> (x), close the modal
