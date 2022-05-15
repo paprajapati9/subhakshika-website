@@ -116,6 +116,9 @@ ul {
     border: 2px #3E8BFF;
     color: #F5F7FA;
 }
+.btn-donate{
+    border-radius: var(--corner-radius);
+}
 
 .btn-box a.btn-donate:hover {
     background-color: #fff;
