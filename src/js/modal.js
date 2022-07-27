@@ -49,8 +49,9 @@ const ourProjectsHandler = id => {
                 ourProjectsModalH2.textContent =
                     "ARUN";
                 ourProjectsModalP.textContent =
-                    "ARUN was born a beggar boy who could dream of nothing beyond earning money by begging and eating the leftover food given as alms. The NGO contacted him in 2017. ARN was a very pleasant boy  and wished to go to school like other boys. He was brought  to Shubhakshika centre. ARN soon proved that he was a very intelligent and receptive boy. Despite his adverse circumstances , he had big dreams. It took him no time to give up begging. His parents too, agreed not to send him for begging. He was admitted to class V in MCD school and was provided regular coaching at the NGO centre. He passed class V from MCD school and was shifted to State school. ARN is now in class VIII. He has been regularly receiving support from Shubhakshika. ARN wants to be an engineer . Shubhakshika stands by him to make his desire come true.";
-                break;
+                    "Arun was found begging on the streets by the NGO. He had no dreams other than to beg for money and consume the leftover food that was given as aims. He was a very pleasant boy and wished to go to school like other boys and one day he was brought to Shubhakshika centre. ARN soon proved that he was a very intelligent and receptive boy. Despite his adverse circumstances , he had big dreams. It took him no time to give up begging. His parents too, agreed not to send him for begging. He was admitted to class V in MCD school and was provided regular coaching at the NGO centre. He passed class V from MCD school and was shifted to State school. ARN is now in class VIII. He has been regularly receiving support from Shubhakshika. ARN wants to be an engineer . Shubhakshika stands by him to make his desire come true.";
+                  
+                    break;
             case 'v2':
                 ourProjectsModalH2.textContent =
                     "CHOTTU";
@@ -69,6 +70,13 @@ const ourProjectsHandler = id => {
                 ourProjectsModalP.textContent =
                     "Raunak  an 8/9 year old boy was found begging at Badli station . The boy was smoking and eating tobacco. It took the NGO staff some time and lot of counselling to convince the parents to send the boy to the shelter home . Raunak was a quarrelsome boy and fought with other boys over small matters. The staff soon, found out  that the child liked to dance and enjoyed playing cricket. This was the take off point for his reformation. The NGO held dance sessions with other children of his age . He learnt to share space with others .Cricket coaching was for him a lesson in working with the team. Raunak gave up smoking and spent his time in creative activities. Gradually , he was weaned off from begging too. Raunak is now going to an MCD school studying in class V. he is provided back-up teaching by the NGO.";
                 break;
+            
+            case 'v5':
+                    ourProjectsModalH2.textContent =
+                        "HIMANSHU";
+                    ourProjectsModalP.textContent =
+                        "Himanshu used to beg at Railway Stations for living and was indulge in bad habits like smoking cigarettes/bidi & consumption of tobacco.Subhakshika assisted him in giving up all of these vices by including him in other pursuits like education and sports. He entirely gave up smoking after a year. Himanshu is in 9th class currently and he also secured first position in class 8th.";
+                    break;
         default:
             break;
     }
